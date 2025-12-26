@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import ProductSchema from "@/components/schemas/ProductSchema";
+import BreadcrumbSchema from "@/components/schemas/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Beyond Crystal Cat Litter: The Activated Carbon Advantage",
@@ -18,6 +20,11 @@ export const metadata: Metadata = {
 export default function CatLitterPage() {
   return (
     <>
+      <ProductSchema />
+      <BreadcrumbSchema items={[
+        { name: "Home", url: "https://crystaldeodorantprotection.com" },
+        { name: "Cat Litter", url: "https://crystaldeodorantprotection.com/cat-litter" }
+      ]} />
       {/* Hero */}
       <section className="bg-gradient-to-b from-[#22c55e]/10 to-white py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

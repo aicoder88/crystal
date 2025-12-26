@@ -1,9 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import OrganizationSchema from "@/components/schemas/OrganizationSchema";
+import WebSiteSchema from "@/components/schemas/WebSiteSchema";
 
 export default function HomePage() {
   return (
     <>
+      <OrganizationSchema />
+      <WebSiteSchema />
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-[#b6e3f4]/30 to-white py-16 sm:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
