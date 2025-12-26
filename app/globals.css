@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafafa;
+  --foreground: #171717;
+  --primary-teal: #b6e3f4;
+  --primary-dark: #1a3a4a;
+  --accent-green: #22c55e;
+  --accent-green-hover: #16a34a;
+  --neutral-100: #f5f5f5;
+  --neutral-200: #e5e5e5;
+  --neutral-600: #525252;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary-teal: var(--primary-teal);
+  --color-primary-dark: var(--primary-dark);
+  --color-accent-green: var(--accent-green);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Link styles for purrify links */
+.purrify-link {
+  color: var(--primary-dark);
+  text-decoration: underline;
+  text-decoration-color: var(--primary-teal);
+  text-underline-offset: 2px;
+  transition: all 0.2s ease;
+}
+
+.purrify-link:hover {
+  color: var(--accent-green);
+  text-decoration-color: var(--accent-green);
+}
