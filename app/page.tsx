@@ -96,9 +96,9 @@ export default function HomePage() {
             {/* Crystal Cat Litter */}
             <div className="bg-neutral-50 rounded-2xl p-6 border border-neutral-200">
               <div className="relative h-48 mb-6 rounded-xl overflow-hidden bg-[#b6e3f4]/20">
-                {/* Placeholder: Silica gel crystal cat litter in a litter box */}
+                {/* White pebbles representing silica gel crystals */}
                 <Image
-                  src="https://images.unsplash.com/photo-1599819861270-2824242e27ad?w=800&h=600&fit=crop"
+                  src="https://images.unsplash.com/photo-1760533536490-08a2e3470c9e?w=800&h=600&fit=crop"
                   alt="Premium Silica Gel Crystals"
                   fill
                   className="object-cover"
@@ -140,7 +140,7 @@ export default function HomePage() {
               </div>
               <div className="relative h-48 mb-6 rounded-xl overflow-hidden bg-[#1a3a4a]/10 mt-2">
                 <Image
-                  src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=600&fit=crop"
+                  src="https://images.unsplash.com/photo-1534259434801-e3d2427ae102?w=800&h=600&fit=crop"
                   alt="Micro-porous Carbon Structure"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
