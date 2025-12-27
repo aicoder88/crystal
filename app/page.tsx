@@ -366,24 +366,159 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Bridge Concept Section */}
+      {/* Popular Comparisons Section */}
       <section className="py-16 sm:py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl sm:text-4xl font-bold text-center text-[#1a3a4a] mb-4">
+            Compare Cat Litter Options
+          </h2>
+          <p className="text-neutral-600 text-center max-w-2xl mx-auto mb-12">
+            Wondering which litter is best for odor control? We&apos;ve compared them all.
+          </p>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Link href="/compare/best-odor-control-litter" className="bg-gradient-to-b from-[#22c55e]/10 to-white rounded-xl p-6 border-2 border-[#22c55e] hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold text-[#1a3a4a] mb-2">Best for Odor Control</h3>
+              <p className="text-sm text-neutral-600 mb-3">The #1 solution for eliminating litter box smell</p>
+              <span className="text-[#22c55e] text-sm font-medium">Read comparison →</span>
+            </Link>
+
+            <Link href="/compare/crystal-vs-clay" className="bg-neutral-50 rounded-xl p-6 border border-neutral-200 hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold text-[#1a3a4a] mb-2">Crystal vs Clay</h3>
+              <p className="text-sm text-neutral-600 mb-3">Which handles odor and dust better?</p>
+              <span className="text-[#22c55e] text-sm font-medium">Compare now →</span>
+            </Link>
+
+            <Link href="/compare/crystal-vs-clumping" className="bg-neutral-50 rounded-xl p-6 border border-neutral-200 hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold text-[#1a3a4a] mb-2">Crystal vs Clumping</h3>
+              <p className="text-sm text-neutral-600 mb-3">Ease of cleaning vs longevity</p>
+              <span className="text-[#22c55e] text-sm font-medium">See the difference →</span>
+            </Link>
+
+            <Link href="/compare/activated-carbon-vs-crystal" className="bg-neutral-50 rounded-xl p-6 border border-neutral-200 hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold text-[#1a3a4a] mb-2">Carbon vs Crystal</h3>
+              <p className="text-sm text-neutral-600 mb-3">Molecular trapping vs moisture absorption</p>
+              <span className="text-[#22c55e] text-sm font-medium">Learn more →</span>
+            </Link>
+          </div>
+
+          <div className="text-center mt-8">
+            <Link href="/cat-litter" className="text-[#22c55e] font-medium hover:underline">
+              View all comparisons and guides →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Blog Section */}
+      <section className="py-16 sm:py-20 bg-neutral-50">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl sm:text-4xl font-bold text-center text-[#1a3a4a] mb-4">
+            Cat Litter Odor Control Guides
+          </h2>
+          <p className="text-neutral-600 text-center max-w-2xl mx-auto mb-12">
+            Science-backed solutions to eliminate litter box smell
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <Link href="/blog/why-does-cat-litter-smell" className="bg-white rounded-xl p-6 border border-neutral-200 hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold text-[#1a3a4a] mb-2">Why Does My Litter Box Smell?</h3>
+              <p className="text-sm text-neutral-600 mb-3">Discover the science behind litter box odor and proven solutions that actually work.</p>
+              <span className="text-[#22c55e] text-sm font-medium">Read article →</span>
+            </Link>
+
+            <Link href="/blog/activated-carbon-cat-litter" className="bg-white rounded-xl p-6 border border-neutral-200 hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold text-[#1a3a4a] mb-2">What Is Activated Carbon?</h3>
+              <p className="text-sm text-neutral-600 mb-3">How activated carbon eliminates odor through molecular adsorption.</p>
+              <span className="text-[#22c55e] text-sm font-medium">Learn the science →</span>
+            </Link>
+
+            <Link href="/blog/get-rid-litter-box-smell-apartment" className="bg-white rounded-xl p-6 border border-neutral-200 hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold text-[#1a3a4a] mb-2">Apartment Odor Solutions</h3>
+              <p className="text-sm text-neutral-600 mb-3">No more embarrassing smells when guests visit your small space.</p>
+              <span className="text-[#22c55e] text-sm font-medium">Get tips →</span>
+            </Link>
+          </div>
+
+          <div className="text-center mt-8">
+            <Link href="/blog" className="text-[#22c55e] font-medium hover:underline">
+              Browse all articles →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* City-Specific Section */}
+      <section className="py-16 sm:py-20 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl sm:text-4xl font-bold text-center text-[#1a3a4a] mb-4">
+            Cat Litter Solutions Across Canada
+          </h2>
+          <p className="text-neutral-600 text-center max-w-2xl mx-auto mb-12">
+            Local insights for cat owners in major Canadian cities
+          </p>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
+            <Link href="/city/toronto" className="bg-neutral-50 rounded-lg p-4 border border-neutral-200 hover:shadow-lg transition-shadow text-center">
+              <h3 className="font-semibold text-[#1a3a4a] mb-1">Toronto</h3>
+              <p className="text-xs text-neutral-600">ON</p>
+            </Link>
+
+            <Link href="/city/vancouver" className="bg-neutral-50 rounded-lg p-4 border border-neutral-200 hover:shadow-lg transition-shadow text-center">
+              <h3 className="font-semibold text-[#1a3a4a] mb-1">Vancouver</h3>
+              <p className="text-xs text-neutral-600">BC</p>
+            </Link>
+
+            <Link href="/city/montreal" className="bg-neutral-50 rounded-lg p-4 border border-neutral-200 hover:shadow-lg transition-shadow text-center">
+              <h3 className="font-semibold text-[#1a3a4a] mb-1">Montreal</h3>
+              <p className="text-xs text-neutral-600">QC</p>
+            </Link>
+
+            <Link href="/city/calgary" className="bg-neutral-50 rounded-lg p-4 border border-neutral-200 hover:shadow-lg transition-shadow text-center">
+              <h3 className="font-semibold text-[#1a3a4a] mb-1">Calgary</h3>
+              <p className="text-xs text-neutral-600">AB</p>
+            </Link>
+
+            <Link href="/city/ottawa" className="bg-neutral-50 rounded-lg p-4 border border-neutral-200 hover:shadow-lg transition-shadow text-center">
+              <h3 className="font-semibold text-[#1a3a4a] mb-1">Ottawa</h3>
+              <p className="text-xs text-neutral-600">ON</p>
+            </Link>
+          </div>
+
+          <div className="text-center mt-6">
+            <p className="text-sm text-neutral-600">
+              Also serving: Edmonton, Winnipeg, Quebec City, Hamilton, Victoria, Halifax, and more
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Bridge Concept Section */}
+      <section className="py-16 sm:py-20 bg-neutral-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#1a3a4a] mb-8">
             The Natural Evolution of Odor Control
           </h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
-            <div className="bg-neutral-50 rounded-xl p-6 flex-1 max-w-xs">
+            <div className="bg-white rounded-xl p-6 flex-1 max-w-xs border border-neutral-200">
               <p className="text-4xl mb-2">💎</p>
               <h3 className="font-semibold text-[#1a3a4a]">Crystal Deodorant</h3>
               <p className="text-sm text-neutral-600">For your body</p>
             </div>
             <div className="text-3xl text-[#b6e3f4] hidden md:block">→</div>
             <div className="text-3xl text-[#b6e3f4] md:hidden">↓</div>
-            <div className="bg-neutral-50 rounded-xl p-6 flex-1 max-w-xs">
+            <div className="bg-white rounded-xl p-6 flex-1 max-w-xs border border-neutral-200">
               <p className="text-4xl mb-2">🔮</p>
-              <h3 className="font-semibold text-[#1a3a4a]">Crystal Litter</h3>
-              <p className="text-sm text-neutral-600">Tried it for your cat?</p>
+              <h3 className="font-semibold text-[#1a3a4a]">
+                <Link href="/crystal-litter-guide" className="hover:text-[#22c55e]">
+                  Crystal Litter
+                </Link>
+              </h3>
+              <p className="text-sm text-neutral-600">
+                <Link href="/crystal-litter-guide" className="text-[#22c55e] hover:underline">
+                  Tried it for your cat?
+                </Link>
+              </p>
             </div>
             <div className="text-3xl text-[#b6e3f4] hidden md:block">→</div>
             <div className="text-3xl text-[#b6e3f4] md:hidden">↓</div>
@@ -404,8 +539,11 @@ export default function HomePage() {
             </div>
           </div>
           <p className="text-neutral-600 mt-8 max-w-2xl mx-auto">
-            You know crystal technology for your body. You might know crystal
-            litter for your cat. But{" "}
+            You know crystal technology for your body. You might know{" "}
+            <Link href="/crystal-litter-guide" className="text-[#22c55e] hover:underline">
+              crystal litter
+            </Link>{" "}
+            for your cat. But{" "}
             <a
               href="https://www.purrify.ca"
               target="_blank"

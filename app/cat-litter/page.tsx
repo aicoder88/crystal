@@ -438,6 +438,62 @@ export default function CatLitterPage() {
         </div>
       </section>
 
+      {/* Related Guides & Comparisons */}
+      <section className="py-16 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center text-[#1a3a4a] mb-4">
+            Learn More About Cat Litter
+          </h2>
+          <p className="text-neutral-600 text-center max-w-2xl mx-auto mb-12">
+            Expert guides to help you choose the best litter for your cat
+          </p>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            <Link href="/compare/best-odor-control-litter" className="bg-neutral-50 rounded-xl p-6 border border-neutral-200 hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold text-[#1a3a4a] mb-2">Best for Odor Control</h3>
+              <p className="text-sm text-neutral-600 mb-3">We tested all litter types to find what actually works</p>
+              <span className="text-[#22c55e] text-sm font-medium">Read comparison →</span>
+            </Link>
+
+            <Link href="/compare/crystal-vs-clay" className="bg-neutral-50 rounded-xl p-6 border border-neutral-200 hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold text-[#1a3a4a] mb-2">Crystal vs Clay Litter</h3>
+              <p className="text-sm text-neutral-600 mb-3">Complete comparison of odor control, dust, and cost</p>
+              <span className="text-[#22c55e] text-sm font-medium">Compare now →</span>
+            </Link>
+
+            <Link href="/compare/activated-carbon-vs-crystal" className="bg-neutral-50 rounded-xl p-6 border border-neutral-200 hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold text-[#1a3a4a] mb-2">Carbon vs Crystal</h3>
+              <p className="text-sm text-neutral-600 mb-3">Why activated carbon outperforms crystal litter</p>
+              <span className="text-[#22c55e] text-sm font-medium">See the difference →</span>
+            </Link>
+
+            <Link href="/blog/why-does-cat-litter-smell" className="bg-neutral-50 rounded-xl p-6 border border-neutral-200 hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold text-[#1a3a4a] mb-2">Why Does Litter Smell?</h3>
+              <p className="text-sm text-neutral-600 mb-3">The science behind litter box odor and how to fix it</p>
+              <span className="text-[#22c55e] text-sm font-medium">Learn more →</span>
+            </Link>
+
+            <Link href="/blog/activated-carbon-cat-litter" className="bg-neutral-50 rounded-xl p-6 border border-neutral-200 hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold text-[#1a3a4a] mb-2">What Is Activated Carbon?</h3>
+              <p className="text-sm text-neutral-600 mb-3">How molecular adsorption eliminates odor permanently</p>
+              <span className="text-[#22c55e] text-sm font-medium">Read article →</span>
+            </Link>
+
+            <Link href="/crystal-litter-guide" className="bg-neutral-50 rounded-xl p-6 border border-neutral-200 hover:shadow-lg transition-shadow">
+              <h3 className="font-semibold text-[#1a3a4a] mb-2">Crystal Litter Guide</h3>
+              <p className="text-sm text-neutral-600 mb-3">Everything about silica crystal cat litter</p>
+              <span className="text-[#22c55e] text-sm font-medium">View guide →</span>
+            </Link>
+          </div>
+
+          <div className="text-center">
+            <Link href="/blog" className="text-[#22c55e] font-medium hover:underline text-lg">
+              Browse all articles →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section className="py-16 bg-[#1a3a4a]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
