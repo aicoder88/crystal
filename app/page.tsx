@@ -60,8 +60,8 @@ export default function HomePage() {
               <div className="relative h-48 mb-6 rounded-xl overflow-hidden bg-[#b6e3f4]/20">
                 {/* Placeholder: Close-up of crystal deodorant stone on bathroom counter */}
                 <Image
-                  src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&h=300&fit=crop"
-                  alt="Crystal deodorant stone"
+                  src="/images/crystal_deodorant.png"
+                  alt="Crystal Deodorant Stone"
                   fill
                   className="object-cover"
                 />
@@ -98,8 +98,8 @@ export default function HomePage() {
               <div className="relative h-48 mb-6 rounded-xl overflow-hidden bg-[#b6e3f4]/20">
                 {/* Placeholder: Silica gel crystal cat litter in a litter box */}
                 <Image
-                  src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=300&fit=crop"
-                  alt="Cat with litter box"
+                  src="https://images.unsplash.com/photo-1599819861270-2824242e27ad?w=800&h=600&fit=crop"
+                  alt="Premium Silica Gel Crystals"
                   fill
                   className="object-cover"
                 />
@@ -140,8 +140,8 @@ export default function HomePage() {
               </div>
               <div className="relative h-48 mb-6 rounded-xl overflow-hidden bg-[#1a3a4a]/10 mt-2">
                 <Image
-                  src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400&h=300&fit=crop"
-                  alt="Micro-porous carbon structure illustration"
+                  src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=600&fit=crop"
+                  alt="Micro-porous Carbon Structure"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
