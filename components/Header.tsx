@@ -9,22 +9,27 @@ export default function Header() {
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "/science", label: "The Science" },
-    { href: "/cat-litter", label: "For Your Home" },
+    { href: "/cat-litter", label: "Technical Analysis" },
     { href: "/crystal-litter-guide", label: "Crystal Litter Guide" },
   ];
 
   return (
     <header className="bg-white border-b border-neutral-200">
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-[#b6e3f4] rounded-full flex items-center justify-center">
-              <span className="text-[#1a3a4a] font-bold text-sm">C</span>
+          <Link href="/" className="flex items-center space-x-3">
+            <div className="w-10 h-10 bg-[#1a3a4a] rounded-xl flex items-center justify-center shadow-inner">
+              <span className="text-[#22c55e] font-black text-lg">C</span>
             </div>
-            <span className="font-semibold text-[#1a3a4a] hidden sm:block">
-              Crystal Protection
-            </span>
+            <div className="flex flex-col">
+              <span className="font-black text-[#1a3a4a] leading-tight tracking-tight uppercase text-xs sm:text-sm">
+                Crystal Deodorant
+              </span>
+              <span className="text-[10px] text-neutral-400 font-bold uppercase tracking-widest leading-none">
+                Protection Research
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -33,7 +38,7 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-neutral-600 hover:text-[#1a3a4a] text-sm font-medium transition-colors"
+                className="text-neutral-500 hover:text-[#1a3a4a] text-xs font-bold uppercase tracking-widest transition-colors"
               >
                 {link.label}
               </Link>
@@ -42,9 +47,9 @@ export default function Header() {
               href="https://www.purrify.ca"
               target="_blank"
               rel="noopener"
-              className="bg-[#22c55e] hover:bg-[#16a34a] text-white px-4 py-2 rounded-full text-sm font-medium transition-colors"
+              className="bg-[#1a3a4a] hover:bg-[#0f2a36] text-white px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-widest transition-all shadow-md"
             >
-              Shop Purrify
+              Partner Portal
             </a>
           </div>
 
@@ -88,7 +93,7 @@ export default function Header() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="text-neutral-600 hover:text-[#1a3a4a] text-sm font-medium px-2 py-2"
+                  className="text-neutral-500 hover:text-[#1a3a4a] text-xs font-bold uppercase tracking-widest px-2 py-3 border-b border-neutral-50"
                 >
                   {link.label}
                 </Link>
@@ -97,9 +102,9 @@ export default function Header() {
                 href="https://www.purrify.ca"
                 target="_blank"
                 rel="noopener"
-                className="bg-[#22c55e] hover:bg-[#16a34a] text-white px-4 py-2 rounded-full text-sm font-medium text-center transition-colors"
+                className="bg-[#1a3a4a] text-white px-4 py-3 rounded-full text-xs font-bold uppercase tracking-widest text-center mt-4 shadow-lg"
               >
-                Shop Purrify
+                Partner Portal
               </a>
             </div>
           </div>

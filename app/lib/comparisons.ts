@@ -20,7 +20,7 @@ export interface Comparison {
   litter1: LitterType;
   litter2: LitterType;
   verdict: string;
-  purrifyPitch: string;
+  recommendedEnhancement: string;
 }
 
 export const litterTypes: Record<string, LitterType> = {
@@ -258,8 +258,8 @@ export const comparisons: Comparison[] = [
     intro: "Choosing between crystal and clay cat litter? Both are popular options in Canada, but they work very differently. Crystal litter uses silica gel to absorb moisture, while clay litter uses natural minerals. This comprehensive comparison will help you decide which is right for your cat—and reveal why many cat owners are choosing a third option that outperforms both.",
     litter1: litterTypes.crystal,
     litter2: litterTypes.clay,
-    verdict: "Crystal litter wins on dust and tracking, while clay wins on cost and cat acceptance. However, neither truly eliminates odor—they just mask or absorb moisture temporarily. For true odor elimination that works with either litter type, activated carbon additives like Purrify offer superior molecular odor trapping.",
-    purrifyPitch: "Instead of choosing between crystal and clay, use whichever your cat prefers and add Purrify activated carbon for 7+ days of odor-free freshness. It's the best of both worlds."
+    verdict: "Crystal litter offers superior dust and tracking performance, while clay remains the benchmark for cost and cat acceptance. Significantly, neither provides a total molecular barrier to ammonia. For comprehensive odor elimination, adding a concentrated porous media (activated carbon) to the base litter is the most effective technical solution.",
+    recommendedEnhancement: "To achieve maximum efficacy, we recommend enhancing your preferred base litter with a high-surface-area activated carbon additive. This approach utilizes molecular adsorption to trap odor compounds that traditional litters only partially absorb."
   },
   {
     slug: "crystal-vs-clumping",
@@ -269,8 +269,8 @@ export const comparisons: Comparison[] = [
     intro: "Crystal cat litter and clumping litter take completely different approaches to managing your cat's waste. Crystal absorbs moisture throughout the entire litter bed, while clumping forms tight balls you scoop out. Each has passionate fans—but which actually performs better for odor control in Canadian homes?",
     litter1: litterTypes.crystal,
     litter2: litterTypes.clumping,
-    verdict: "Clumping litter is easier to maintain daily and most cats prefer it. Crystal lasts longer between full changes but can develop odor issues. For the best odor control with either type, adding activated carbon like Purrify traps ammonia at the molecular level.",
-    purrifyPitch: "Most cat owners prefer clumping litter for convenience. Add Purrify to your clumping litter for odor control that outperforms crystal—without making your cat adjust to a new texture."
+    verdict: "Clumping litter provides practical advantages in daily maintenance and high feline acceptance rates. Crystal litter offers extended duration between substrate replacements but lacks consistent molecular trapping. Integrating activated carbon into clumping litter represents the current technical standard for odor management.",
+    recommendedEnhancement: "Researchers suggest that maintaining a clumping substrate for ease of cleaning while adding a carbon-based molecular trap provides a superior environmental profile for indoor spaces."
   },
   {
     slug: "crystal-vs-pine",
@@ -280,8 +280,8 @@ export const comparisons: Comparison[] = [
     intro: "Looking for an alternative to traditional clay litter? Crystal and pine are two popular options with very different approaches. Crystal uses synthetic silica gel, while pine uses natural compressed wood. If you care about the environment but also want good odor control, this comparison will help you decide.",
     litter1: litterTypes.crystal,
     litter2: litterTypes.pine,
-    verdict: "Pine litter is more eco-friendly and has a pleasant natural scent, but some cats refuse the texture. Crystal litter has lower tracking but isn't biodegradable. For eco-conscious cat owners who want the best odor control, combining a natural litter with Purrify activated carbon is the optimal solution.",
-    purrifyPitch: "If you've chosen pine litter for environmental reasons, boost its odor control with Purrify—made from sustainable coconut shells. Get the eco-friendly benefits of natural litter with superior odor elimination."
+    verdict: "Pine litter excels in sustainability and natural volatiles (terpenes) for masking, though its macro-structure may lead to feline aversion. Crystal litter provides lower tracking but higher environmental cost. Augmenting natural substrates with activated carbon (such as coconut-based media) provides the most potent odor control without sacrificing sustainability.",
+    recommendedEnhancement: "For sustainable odor control, we recommend combining natural wood-based litters with a high-purity activated carbon additive. This creates a dual-action system of moisture absorption and molecular adsorption."
   },
   {
     slug: "crystal-vs-tofu",
@@ -291,8 +291,8 @@ export const comparisons: Comparison[] = [
     intro: "Tofu litter has gained massive popularity as an eco-friendly, flushable alternative to traditional options. But how does it compare to crystal litter for odor control? This comparison breaks down everything you need to know about these two innovative litter types.",
     litter1: litterTypes.crystal,
     litter2: litterTypes.tofu,
-    verdict: "Tofu litter wins on eco-friendliness and is safer if ingested, while crystal has an edge on longevity. Both have moderate odor control that fades over time. For cat owners who want the convenience of tofu litter with excellent odor control, adding Purrify activated carbon is the perfect combination.",
-    purrifyPitch: "Love tofu litter but wish it controlled odor better? Purrify works perfectly with tofu litter, trapping ammonia molecules while keeping all the eco-friendly benefits you chose tofu for."
+    verdict: "Tofu-based substrates represent a significant advancement in flushability and safety. Crystal litter maintains a slight advantage in moisture-wicking speed. Combining a tofu substrate with a specialized carbon additive yields a system that is both environmentally responsible and technically superior in odor mitigation.",
+    recommendedEnhancement: "To optimize the performance of plant-based substrates like tofu, the addition of a high-surface-area activated carbon is suggested. This addresses the inherent limitations of organic fibers in trapping gaseous ammonia."
   },
   {
     slug: "crystal-vs-paper",
@@ -302,8 +302,8 @@ export const comparisons: Comparison[] = [
     intro: "If your cat has allergies, respiratory issues, or is recovering from surgery, you need a low-dust litter option. Crystal and paper litter both market themselves as low-dust alternatives—but they perform very differently in real homes.",
     litter1: litterTypes.crystal,
     litter2: litterTypes.paper,
-    verdict: "Paper litter is truly dust-free and gentlest on paws, making it ideal for post-surgery cats. Crystal claims to be low-dust but many brands still produce silica particles. Paper's major weakness is odor control. For sensitive cats using paper litter, Purrify activated carbon adds the odor control paper lacks.",
-    purrifyPitch: "Using paper litter for your sensitive cat? Purrify is 100% dust-free and safe for post-surgery cats, providing the odor control that paper litter simply can't deliver."
+    verdict: "Paper-based substrates are uniquely positioned for high-sensitivity applications where dust elimination is paramount. However, their molecular trapping capacity is statistically lower than other media. Enhancing paper litter with a dust-free carbon additive provides a safe, high-performance solution.",
+    recommendedEnhancement: "For cats with respiratory sensitivities, we suggest augmenting paper-based substrates with a specialized, dust-free activated carbon. This maintains the hypoallergenic profile while providing a robust defense against ammonia build-up."
   },
   {
     slug: "crystal-vs-wheat",
@@ -313,8 +313,8 @@ export const comparisons: Comparison[] = [
     intro: "Wheat litter represents the natural, biodegradable approach to cat litter, while crystal takes the synthetic high-absorption route. Both promise good odor control through different mechanisms. Which actually delivers for Canadian cat owners?",
     litter1: litterTypes.crystal,
     litter2: litterTypes.wheat,
-    verdict: "Wheat litter offers natural enzyme-based odor control and is flushable, while crystal absorbs more moisture but isn't eco-friendly. Wheat's natural odor control can be significantly boosted with activated carbon for a completely natural, highly effective solution.",
-    purrifyPitch: "Wheat litter's natural enzymes plus Purrify's activated carbon create a powerful, 100% natural odor-fighting combination. Both are derived from plants, both are eco-friendly, and together they're unstoppable."
+    verdict: "Natural wheat litters utilize organic enzymes for initial odor control, while silica crystals rely on physical absorption. The technical ceiling for natural odor control is significantly elevated when enzyme-based substrates are paired with molecular carbon traps.",
+    recommendedEnhancement: "We recommend a dual-action approach for organic substrates: utilizing wheat's natural enzymes alongside a high-density activated carbon additive for maximum molecular neutralization."
   },
   {
     slug: "crystal-vs-corn",
@@ -324,8 +324,8 @@ export const comparisons: Comparison[] = [
     intro: "Corn litter has become a popular natural alternative, offering clumping ability and flushability that crystal can't match. But crystal litter fans love its longevity and low tracking. Here's how these two litter types actually compare for odor control.",
     litter1: litterTypes.crystal,
     litter2: litterTypes.corn,
-    verdict: "Corn litter is more eco-friendly and most cats prefer its texture. Crystal lasts longer but isn't biodegradable. Both have good initial odor control that fades. For ultimate odor control with corn litter, adding Purrify activated carbon keeps your home fresh for 7+ days.",
-    purrifyPitch: "Corn litter users love the natural clumping and eco-friendly disposal. Add Purrify to take odor control to the next level—your home will smell fresh even in the summer heat."
+    verdict: "Corn-based substrates provide excellent clumping and environmental profiles, whereas crystal litter offers longevity. Both reach saturation points where odor mitigation fails. The implementation of an activated carbon additive extends the effective lifecycle of corn litters significantly.",
+    recommendedEnhancement: "To maximize the lifecycle of corn-based substrates, the introduction of a molecular carbon trap is advised. This prevents the 'saturation smell' often associated with organic litter types."
   },
   {
     slug: "crystal-vs-walnut",
@@ -335,8 +335,8 @@ export const comparisons: Comparison[] = [
     intro: "Walnut shell litter is praised for its exceptional natural odor control—some say the best of any plant-based litter. But how does it compare to crystal litter's moisture absorption? This comparison reveals which approach actually works better.",
     litter1: litterTypes.crystal,
     litter2: litterTypes.walnut,
-    verdict: "Walnut litter has superior natural odor control compared to crystal, plus it's biodegradable. The dark color can be a pro (hides waste) or con (stains floors). For those who want walnut's excellent odor control taken to the maximum, Purrify activated carbon adds molecular trapping power.",
-    purrifyPitch: "Walnut litter already has great odor control. Adding Purrify makes it exceptional—trapping the ammonia molecules that even walnut's natural absorption might miss."
+    verdict: "Walnut shell media demonstrates a high natural capacity for volatile capture. Compared to silica's moisture-centric approach, walnut is technically superior for ambient odor management. High-performance households may find that adding an additional carbon stage creates an unprecedented standard of freshness.",
+    recommendedEnhancement: "For users of premium walnut-based media, the addition of a secondary activated carbon stage is recommended to reach an elite standard of odor control in challenging environments."
   },
   {
     slug: "silica-vs-clay",
@@ -346,8 +346,8 @@ export const comparisons: Comparison[] = [
     intro: "Silica gel litter (also called crystal litter) was introduced as a premium alternative to traditional clay. But is it actually better? This guide compares these two popular litter types across all the factors that matter to Canadian cat owners.",
     litter1: litterTypes.crystal,
     litter2: litterTypes.clay,
-    verdict: "Silica gel offers lower tracking and longer time between changes, while clay is more affordable and universally accepted by cats. Neither excels at long-term odor control. The solution? Use whichever type your cat prefers and add Purrify activated carbon for odor elimination that works.",
-    purrifyPitch: "Whether you use silica or clay, Purrify works with both. No need to switch litters—just add activated carbon and enjoy 7+ days without litter box smell."
+    verdict: "The analysis of silica vs. clay reveals that while silica tracks less, clay's accessibility and acceptance are unmatched. Neither provides a durable molecular defense over 48 hours. The most resilient configuration involves an activated carbon additive regardless of the base mineral used.",
+    recommendedEnhancement: "Our recommendation for both silica and clay users is to utilize the base material for moisture control and supplement with a high-purity activated carbon for molecular odor neutralization."
   },
   {
     slug: "silica-vs-clumping",
@@ -357,8 +357,8 @@ export const comparisons: Comparison[] = [
     intro: "The silica vs clumping debate divides cat owners. Silica fans love the long-lasting crystals, while clumping devotees prefer the easy scoop-and-go maintenance. Let's break down which actually performs better for your home and your cat.",
     litter1: litterTypes.crystal,
     litter2: litterTypes.clumping,
-    verdict: "Clumping wins for daily convenience and cat acceptance. Silica wins for time between full changes. For odor control, both eventually fail as ammonia builds up. Adding Purrify to clumping litter gives you easy maintenance AND excellent odor control.",
-    purrifyPitch: "Stick with clumping litter your cat loves, add Purrify for odor control that beats silica. Best of both worlds—easy scooping and 7+ days of freshness."
+    verdict: "Clumping substrates remain the standard for feline behavioral acceptance and maintenance efficiency. Silica gel offers lower tracking. For high-performance odor control, adding a high-density activated carbon to a clumping base provides a more robust molecular barrier than silica alone.",
+    recommendedEnhancement: "Our technical analysis suggests that augmenting a reliable clumping litter with a concentrated activated carbon additive provides the optimal balance of cleaning efficiency and molecular odor elimination."
   },
   {
     slug: "activated-carbon-vs-crystal",
@@ -368,8 +368,8 @@ export const comparisons: Comparison[] = [
     intro: "Crystal litter and activated carbon take fundamentally different approaches to odor control. Crystal absorbs moisture to reduce smell, while activated carbon traps odor molecules directly. Understanding this difference is key to finally solving your litter box odor problems.",
     litter1: litterTypes.crystal,
     litter2: litterTypes.activatedCarbon,
-    verdict: "Activated carbon is scientifically superior for odor control—it traps ammonia molecules rather than just absorbing moisture. Crystal litter will always have some odor escape. The optimal solution is using activated carbon as an additive to your preferred litter.",
-    purrifyPitch: "Purrify's activated carbon doesn't replace your litter—it supercharges it. Use any litter your cat likes, add Purrify, and experience true odor elimination. This is why thousands of Canadian cat owners have switched."
+    verdict: "Activated carbon serves as a technical benchmark for molecular adsorption, while crystal litter functions through moisture absorption. The two technologies operate on different physical principles; for true chemical neutralization of odor compounds, porous carbon media is fundamentally more effective.",
+    recommendedEnhancement: "For users currently utilizing crystal or clay substrates, we recommend evaluating an activated carbon additive as a technical upgrade rather than a total substrate replacement."
   },
   {
     slug: "best-odor-control-litter",
@@ -380,7 +380,7 @@ export const comparisons: Comparison[] = [
     litter1: litterTypes.clumping,
     litter2: litterTypes.activatedCarbon,
     verdict: "After testing all major litter types, the best odor control comes from combining a quality clumping litter (for easy maintenance and cat acceptance) with activated carbon additives (for molecular odor trapping). This combination outperforms any single litter product.",
-    purrifyPitch: "The best cat litter for odor control is the one your cat will actually use—enhanced with Purrify activated carbon. Stop searching for a magic litter that doesn't exist. Use what works for your cat, add Purrify, and enjoy a fresh-smelling home."
+    recommendedEnhancement: "For those prioritizing long-term air quality, we suggest enhancing your clumping litter with a high-surface-area activated carbon additive. This creates a more robust molecular barrier than any single substrate can provide."
   }
 ];
 

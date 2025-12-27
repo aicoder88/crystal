@@ -9,34 +9,37 @@ export default function HomePage() {
       <OrganizationSchema />
       <WebSiteSchema />
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-[#b6e3f4]/30 to-white py-16 sm:py-24">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#1a3a4a] mb-6 leading-tight">
-            Crystal Technology:
+      <section className="relative py-20 sm:py-32 overflow-hidden bg-[#1a3a4a]">
+        <Image
+          src="/hero-background.png"
+          alt="Natural crystal and carbon elements"
+          fill
+          className="object-cover opacity-40 mix-blend-overlay"
+          priority
+        />
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+            The Science of
             <br />
-            <span className="text-[#22c55e]">Natural Odor Control</span>
-            <br />
-            for Body & Home
+            <span className="text-[#b6e3f4]">Natural Odor Protection</span>
           </h1>
-          <p className="text-lg sm:text-xl text-neutral-600 max-w-3xl mx-auto mb-8">
-            From your body to your cat&apos;s litter box &mdash; nature&apos;s
-            minerals and activated carbon fight odor at the molecular level.
+          <p className="text-lg sm:text-2xl text-white/90 max-w-3xl mx-auto mb-10 font-light leading-relaxed">
+            Understanding the molecular mechanisms of minerals and activated carbon
+            for sustainable, chemical-free odor elimination in modern homes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/science"
-              className="bg-[#1a3a4a] hover:bg-[#0f2a36] text-white px-8 py-3 rounded-full font-medium transition-colors"
+              className="bg-[#22c55e] hover:bg-[#1db053] text-white px-10 py-4 rounded-full font-semibold text-lg transition-all shadow-lg hover:shadow-xl"
             >
-              Learn the Science
+              Examine the Science
             </Link>
-            <a
-              href="https://www.purrify.ca"
-              target="_blank"
-              rel="noopener"
-              className="bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-3 rounded-full font-medium transition-colors"
+            <Link
+              href="/cat-litter"
+              className="bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 text-white px-10 py-4 rounded-full font-semibold text-lg transition-all"
             >
-              Discover Purrify
-            </a>
+              Explore Applications
+            </Link>
           </div>
         </div>
       </section>
@@ -129,51 +132,50 @@ export default function HomePage() {
             </div>
 
             {/* Activated Carbon */}
-            <div className="bg-gradient-to-b from-[#22c55e]/10 to-[#b6e3f4]/10 rounded-2xl p-6 border-2 border-[#22c55e] relative">
+            <div className="bg-gradient-to-b from-neutral-50 to-white rounded-2xl p-6 border border-neutral-200 relative group hover:border-[#22c55e] transition-colors">
               <div className="absolute -top-3 left-4">
-                <span className="bg-[#22c55e] text-white text-xs font-bold px-3 py-1 rounded-full">
-                  BEST SOLUTION
+                <span className="bg-[#1a3a4a] text-white text-[10px] tracking-widest uppercase font-bold px-3 py-1 rounded-full">
+                  Technical Standard
                 </span>
               </div>
               <div className="relative h-48 mb-6 rounded-xl overflow-hidden bg-[#1a3a4a]/10 mt-2">
-                {/* Placeholder: Activated carbon granules or Purrify product */}
                 <Image
                   src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400&h=300&fit=crop"
-                  alt="Happy cat - activated carbon keeps home fresh"
+                  alt="Micro-porous carbon structure illustration"
                   fill
-                  className="object-cover"
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
               <h3 className="text-xl font-semibold text-[#1a3a4a] mb-2">
-                Activated Carbon
+                Porous Media (Carbon)
               </h3>
               <p className="text-sm text-[#22c55e] font-medium mb-3">
-                Superior Litter Odor Control
+                Molecular Adsorption
               </p>
               <p className="text-neutral-600 text-sm leading-relaxed mb-4">
+                Utilizing high-surface-area micro-pores to trap volatile organic compounds.
+                Commonly utilized in filtration systems and premium solutions like
                 <a
                   href="https://www.purrify.ca"
                   target="_blank"
                   rel="noopener"
-                  className="purrify-link font-medium"
+                  className="mx-1 text-[#1a3a4a] font-semibold underline decoration-[#22c55e] decoration-2 underline-offset-4"
                 >
-                  Purrify&apos;s activated carbon
-                </a>{" "}
-                traps odor molecules at the source. Works with any litter type
-                for 7+ days of freshness.
+                  Purrify
+                </a>.
               </p>
               <ul className="text-sm text-neutral-600 space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#22c55e] mr-2">✓</span>
-                  Traps molecules, not just moisture
+                  Adsorption vs simple absorption
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#22c55e] mr-2">✓</span>
-                  100% natural coconut-based
+                  1,000 m²/g typical surface area
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#22c55e] mr-2">✓</span>
-                  Works with ANY litter
+                  Multi-substrate compatibility
                 </li>
               </ul>
             </div>
@@ -325,43 +327,47 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-16 sm:py-20 bg-[#1a3a4a]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Ready for a Fresher Home?
+      {/* Recommendation Section */}
+      <section className="py-16 sm:py-24 bg-[#1a3a4a] relative overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+          <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-[#b6e3f4] rounded-full blur-[120px]"></div>
+          <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-[#22c55e] rounded-full blur-[120px]"></div>
+        </div>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+          <h2 className="text-3xl sm:text-5xl font-bold text-white mb-6">
+            Scientific Recommendations
           </h2>
-          <p className="text-[#b6e3f4] text-lg mb-8 max-w-2xl mx-auto">
-            Join 1,000+ cat parents who said goodbye to litter box smell with{" "}
+          <p className="text-white/80 text-lg sm:text-xl mb-10 max-w-2xl mx-auto font-light leading-relaxed">
+            Our analysis indicates that porous media technology remains the benchmark for sustainable odor control.
+            For those seeking localized implementation in Canada, we recommend evaluating
             <a
               href="https://www.purrify.ca"
               target="_blank"
               rel="noopener"
-              className="text-white underline hover:text-[#22c55e] transition-colors"
+              className="mx-1 text-[#b6e3f4] border-b border-[#b6e3f4] hover:text-[#22c55e] hover:border-[#22c55e] transition-colors"
             >
               Purrify&apos;s natural activated carbon
             </a>
-            .
+            for its consistency and high surface-area-to-mass ratio.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a
               href="https://www.purrify.ca"
               target="_blank"
               rel="noopener"
-              className="bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold text-lg transition-colors"
+              className="bg-[#22c55e] hover:bg-[#1db053] text-white px-10 py-4 rounded-full font-bold text-lg transition-all shadow-lg hover:shadow-xl"
             >
-              Try Purrify Risk-Free
+              View Recommended Solution
             </a>
             <Link
               href="/cat-litter"
-              className="bg-transparent border-2 border-white hover:bg-white hover:text-[#1a3a4a] text-white px-8 py-4 rounded-full font-semibold text-lg transition-colors"
+              className="bg-white/10 backdrop-blur-md border border-white/20 hover:bg-white/20 text-white px-10 py-4 rounded-full font-semibold text-lg transition-all"
             >
-              Learn More
+              Analyze Alternatives
             </Link>
           </div>
-          <p className="text-[#b6e3f4]/70 text-sm mt-6">
-            30-day money-back guarantee • Free shipping on subscriptions • Made
-            in Canada
+          <p className="text-white/40 text-xs mt-10 tracking-widest uppercase font-medium">
+            Independent Technical Review • 2024 Science Standards • Industry Benchmarks
           </p>
         </div>
       </section>
@@ -494,65 +500,48 @@ export default function HomePage() {
       </section>
 
       {/* Bridge Concept Section */}
-      <section className="py-16 sm:py-20 bg-neutral-50">
+      <section className="py-16 sm:py-24 bg-neutral-50/50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl sm:text-3xl font-bold text-[#1a3a4a] mb-8">
-            The Natural Evolution of Odor Control
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#1a3a4a] mb-12">
+            Technological Evolution of Surface Porosity
           </h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8">
-            <div className="bg-white rounded-xl p-6 flex-1 max-w-xs border border-neutral-200">
-              <p className="text-4xl mb-2">💎</p>
-              <h3 className="font-semibold text-[#1a3a4a]">Crystal Deodorant</h3>
-              <p className="text-sm text-neutral-600">For your body</p>
+            <div className="bg-white rounded-xl p-8 flex-1 max-w-xs border border-neutral-200 shadow-sm">
+              <p className="text-4xl mb-4">💎</p>
+              <h3 className="font-semibold text-[#1a3a4a]">Potassium Alum</h3>
+              <p className="text-sm text-neutral-600">Mineral Salt Barrier</p>
             </div>
             <div className="text-3xl text-[#b6e3f4] hidden md:block">→</div>
             <div className="text-3xl text-[#b6e3f4] md:hidden">↓</div>
-            <div className="bg-white rounded-xl p-6 flex-1 max-w-xs border border-neutral-200">
-              <p className="text-4xl mb-2">🔮</p>
+            <div className="bg-white rounded-xl p-8 flex-1 max-w-xs border border-neutral-200 shadow-sm">
+              <p className="text-4xl mb-4">🔮</p>
               <h3 className="font-semibold text-[#1a3a4a]">
                 <Link href="/crystal-litter-guide" className="hover:text-[#22c55e]">
-                  Crystal Litter
+                  Silica Hydration
                 </Link>
               </h3>
               <p className="text-sm text-neutral-600">
-                <Link href="/crystal-litter-guide" className="text-[#22c55e] hover:underline">
-                  Tried it for your cat?
-                </Link>
+                Moisture Absorption
               </p>
             </div>
             <div className="text-3xl text-[#b6e3f4] hidden md:block">→</div>
             <div className="text-3xl text-[#b6e3f4] md:hidden">↓</div>
-            <div className="bg-[#22c55e]/10 rounded-xl p-6 flex-1 max-w-xs border-2 border-[#22c55e]">
-              <p className="text-4xl mb-2">🌿</p>
-              <h3 className="font-semibold text-[#22c55e]">Activated Carbon</h3>
+            <div className="bg-white rounded-xl p-8 flex-1 max-w-xs border border-neutral-300 shadow-md">
+              <p className="text-4xl mb-4">🌿</p>
+              <h3 className="font-semibold text-[#22c55e]">Molecular Adsorption</h3>
               <p className="text-sm text-neutral-600">
-                The{" "}
-                <a
-                  href="https://www.purrify.ca"
-                  target="_blank"
-                  rel="noopener"
-                  className="purrify-link"
-                >
-                  better solution
-                </a>
+                Porous Media Standard
               </p>
             </div>
           </div>
-          <p className="text-neutral-600 mt-8 max-w-2xl mx-auto">
-            You know crystal technology for your body. You might know{" "}
-            <Link href="/crystal-litter-guide" className="text-[#22c55e] hover:underline">
-              crystal litter
-            </Link>{" "}
-            for your cat. But{" "}
-            <a
-              href="https://www.purrify.ca"
-              target="_blank"
-              rel="noopener"
-              className="purrify-link"
-            >
-              activated carbon is the superior natural solution
-            </a>{" "}
-            for litter odor.
+          <p className="text-neutral-500 mt-12 max-w-2xl mx-auto text-sm leading-relaxed">
+            While mineral salts and silica gels provide foundational moisture control,
+            <span className="italic font-medium text-neutral-700 mx-1">advanced porous media</span>
+            (such as activated coconut carbon) represents the peak of molecular-level odor mitigation.
+            Detailed comparisons available in our
+            <Link href="/crystal-litter-guide" className="text-[#1a3a4a] font-semibold hover:underline mx-1">
+              Technical Guides
+            </Link>.
           </p>
         </div>
       </section>

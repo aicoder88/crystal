@@ -158,28 +158,28 @@ export default async function ComparisonPage({ params }: PageProps) {
             {comparison.verdict}
           </p>
 
-          {/* Purrify CTA */}
-          <div className="bg-[#22c55e]/10 border-2 border-[#22c55e] rounded-2xl p-6">
-            <h3 className="text-xl font-bold text-[#1a3a4a] mb-2">
-              The Better Solution: <a href="https://www.purrify.ca" target="_blank" rel="noopener" className="text-[#22c55e] hover:underline">Purrify Activated Carbon</a>
+          {/* Technical Enhancement Panel */}
+          <div className="bg-neutral-50 border-2 border-[#1a3a4a]/10 rounded-2xl p-8 shadow-sm">
+            <h3 className="text-xl font-bold text-[#1a3a4a] mb-4">
+              Scientific Recommendation: <span className="text-[#22c55e]">Porous Media Integration</span>
             </h3>
-            <p className="text-neutral-600 mb-4">
-              {comparison.purrifyPitch}
+            <p className="text-neutral-600 mb-6 leading-relaxed">
+              {comparison.recommendedEnhancement}
             </p>
             <div className="flex flex-wrap gap-4">
               <a
                 href="https://www.purrify.ca"
                 target="_blank"
                 rel="noopener"
-                className="bg-[#22c55e] hover:bg-[#16a34a] text-white px-6 py-3 rounded-full font-semibold transition-colors"
+                className="bg-[#1a3a4a] hover:bg-[#0f2a36] text-white px-8 py-3 rounded-full font-semibold transition-all shadow-md"
               >
-                Try Purrify Today
+                Access Recommended Solution
               </a>
               <Link
                 href="/science"
-                className="border-2 border-[#1a3a4a] hover:bg-[#1a3a4a] hover:text-white text-[#1a3a4a] px-6 py-3 rounded-full font-semibold transition-colors"
+                className="border-2 border-[#1a3a4a]/20 hover:border-[#1a3a4a] text-[#1a3a4a] px-8 py-3 rounded-full font-semibold transition-all"
               >
-                Learn How It Works
+                Review Technical Data
               </Link>
             </div>
           </div>
@@ -198,7 +198,7 @@ export default async function ComparisonPage({ params }: PageProps) {
                 Which cat litter is best for odor control?
               </h3>
               <p className="text-neutral-600 text-sm">
-                For maximum odor control, combine your preferred litter type with an <a href="https://www.purrify.ca" target="_blank" rel="noopener" className="purrify-link">activated carbon additive like Purrify</a>. Activated carbon traps odor molecules at the source, providing 7+ days of freshness regardless of which base litter you use.
+                Efficiency is maximized by utilizing a porous media additive alongside a standard clumping base. This provides two stages of protection: physical waste encapsulation and molecular adsorption of volatile gases.
               </p>
             </div>
             <div className="bg-neutral-50 rounded-xl p-6">
@@ -206,7 +206,7 @@ export default async function ComparisonPage({ params }: PageProps) {
                 Can I switch my cat from {comparison.litter1.name.toLowerCase()} to {comparison.litter2.name.toLowerCase()}?
               </h3>
               <p className="text-neutral-600 text-sm">
-                Yes, but transition gradually over 7-10 days by mixing increasing amounts of the new litter. Some cats are sensitive to texture changes. Alternatively, keep your current litter and add <a href="https://www.purrify.ca" target="_blank" rel="noopener" className="purrify-link">Purrify for better odor control</a> without any adjustment period.
+                Gradual transition over 7-10 days is recommended to prevent feline aversion. Many users opt to keep their previous substrate and simply introduce an activated carbon additive to manage odor more effectively without behavioral disruption.
               </p>
             </div>
             <div className="bg-neutral-50 rounded-xl p-6">
@@ -214,7 +214,7 @@ export default async function ComparisonPage({ params }: PageProps) {
                 What&apos;s the most cost-effective cat litter option?
               </h3>
               <p className="text-neutral-600 text-sm">
-                Clay litter has the lowest upfront cost, but you may spend more long-term due to frequent changes and potential odor issues. Using a mid-range litter with <a href="https://www.purrify.ca" target="_blank" rel="noopener" className="purrify-link">Purrify extends litter life</a>, potentially saving money while eliminating odor.
+                While clay has the lowest purchase price, the longevity of premium configurations (base litter + carbon enhancement) often yields a lower total cost of ownership by extending the functional lifecycle of the substrate.
               </p>
             </div>
           </div>
@@ -241,22 +241,22 @@ export default async function ComparisonPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Final CTA */}
-      <section className="py-12 bg-[#1a3a4a]">
+      {/* Final Meta-Analysis CTA */}
+      <section className="py-20 bg-[#1a3a4a] relative">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl font-bold text-white mb-4">
-            Stop Comparing. Start Eliminating Odor.
+          <h2 className="text-3xl font-bold text-white mb-6">
+            Optimizing Residential Air Quality
           </h2>
-          <p className="text-[#b6e3f4] mb-6">
-            <a href="https://www.purrify.ca" target="_blank" rel="noopener" className="text-white underline hover:text-[#22c55e]">Purrify</a> works with any cat litter. Keep what your cat loves, add what actually works.
+          <p className="text-[#b6e3f4] mb-10 text-lg font-light">
+            Data-driven solutions for chemical-free odor mitigation. Explore our technical partners for high-performance implementations available across Canada.
           </p>
           <a
             href="https://www.purrify.ca"
             target="_blank"
             rel="noopener"
-            className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold transition-colors"
+            className="inline-block bg-[#22c55e] hover:bg-[#1db053] text-white px-10 py-4 rounded-full font-bold text-lg transition-all shadow-lg shadow-[#22c55e]/20"
           >
-            Try Purrify Risk-Free
+            Access Recommended Carbon Media
           </a>
         </div>
       </section>

@@ -5,15 +5,15 @@ import ProductSchema from "@/components/schemas/ProductSchema";
 import BreadcrumbSchema from "@/components/schemas/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Beyond Crystal Cat Litter: The Activated Carbon Advantage",
+  title: "Evaluation of Molecular Odor Control in Feline Substrates",
   description:
-    "Cat owners are switching from crystal litter to activated carbon additives like Purrify. Learn why coconut-based carbon outperforms silica crystal litter for odor control.",
+    "A technical analysis of crystal, clay, and organic feline substrates. Comparing moisture absorption versus molecular adsorption for residential air quality management.",
   keywords: [
-    "crystal cat litter alternative",
-    "activated carbon cat litter",
-    "natural cat litter additive",
-    "Purrify cat litter",
-    "better than crystal litter",
+    "cat litter technology",
+    "feline substrate analysis",
+    "molecular odor control",
+    "porous media odor trapping",
+    "litter performance benchmarking",
   ],
 };
 
@@ -23,36 +23,39 @@ export default function CatLitterPage() {
       <ProductSchema />
       <BreadcrumbSchema items={[
         { name: "Home", url: "https://crystaldeodorantprotection.com" },
-        { name: "Cat Litter", url: "https://crystaldeodorantprotection.com/cat-litter" }
+        { name: "Technical Analysis", url: "https://crystaldeodorantprotection.com/cat-litter" }
       ]} />
       {/* Hero */}
-      <section className="bg-gradient-to-b from-[#22c55e]/10 to-white py-16">
+      <section className="bg-gradient-to-b from-[#1a3a4a]/5 to-white py-20 sm:py-32 border-b border-neutral-100">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold text-[#1a3a4a] mb-6">
-            Beyond Crystal Cat Litter:
+          <span className="text-[#22c55e] font-bold text-xs tracking-[0.2em] uppercase mb-4 block">
+            Technical Analysis Report
+          </span>
+          <h1 className="text-4xl sm:text-6xl font-black text-[#1a3a4a] mb-8 leading-[1.1]">
+            Substrate Performance &
             <br />
-            <span className="text-[#22c55e]">The Activated Carbon Advantage</span>
+            <span className="text-[#22c55e]">Molecular Adsorption</span>
           </h1>
-          <p className="text-lg text-neutral-600 max-w-2xl mx-auto mb-8">
-            Keep your current litter. Just add{" "}
+          <p className="text-xl text-neutral-500 max-w-2xl mx-auto mb-12 font-light leading-relaxed">
+            Comparative analysis of traditional silica gels versus advanced porous media for
+            long-term environmental odor mitigation in residential settings.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/science"
+              className="bg-[#1a3a4a] hover:bg-[#0f2a36] text-white px-10 py-4 rounded-full font-bold text-lg transition-all shadow-lg"
+            >
+              Examine Technical Data
+            </Link>
             <a
               href="https://www.purrify.ca"
               target="_blank"
               rel="noopener"
-              className="purrify-link font-medium"
+              className="bg-white border-2 border-[#1a3a4a]/10 hover:border-[#1a3a4a] text-[#1a3a4a] px-10 py-4 rounded-full font-semibold text-lg transition-all"
             >
-              Purrify
+              View Specifications
             </a>
-            .
-          </p>
-          <a
-            href="https://www.purrify.ca"
-            target="_blank"
-            rel="noopener"
-            className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold text-lg transition-colors"
-          >
-            Shop Purrify Now
-          </a>
+          </div>
         </div>
       </section>
 
@@ -107,88 +110,60 @@ export default function CatLitterPage() {
         </div>
       </section>
 
-      {/* The Purrify Solution */}
-      <section className="py-16 bg-neutral-50">
+      {/* Benchmarking Molecular Adsorption */}
+      <section className="py-20 bg-neutral-50 border-y border-neutral-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
-              <span className="text-[#22c55e] font-medium text-sm uppercase tracking-wide">
-                The Better Solution
+              <span className="text-[#22c55e] font-bold text-xs tracking-widest uppercase block mb-4">
+                Research Benchmark
               </span>
-              <h2 className="text-3xl sm:text-4xl font-bold text-[#1a3a4a] mt-2 mb-6">
-                <a
-                  href="https://www.purrify.ca"
-                  target="_blank"
-                  rel="noopener"
-                  className="hover:text-[#22c55e] transition-colors"
-                >
-                  Purrify Activated Carbon
-                </a>
+              <h2 className="text-3xl sm:text-5xl font-black text-[#1a3a4a] mb-8 leading-tight">
+                Reference Standard:
+                <br />
+                <span className="text-[#22c55e]">Porous Carbon Media</span>
               </h2>
-              <p className="text-neutral-600 mb-6 leading-relaxed">
-                Instead of replacing your cat&apos;s litter entirely,{" "}
-                <a
-                  href="https://www.purrify.ca"
-                  target="_blank"
-                  rel="noopener"
-                  className="purrify-link"
-                >
-                  Purrify works as a powerful additive
-                </a>{" "}
-                that traps odor molecules at the source. Your cat keeps their
-                preferred litter texture while you enjoy a fresh-smelling home.
+              <p className="text-neutral-500 mb-8 text-lg leading-relaxed font-light">
+                Our analysis identifies coconut-based activated carbon as the current
+                technical benchmark for non-chemical odor neutralization. Unlike silica,
+                which functions via surface absorption, porous carbon employs molecular
+                adsorption to trap ammonia (NH₃) and volatile organic compounds (VOCs).
               </p>
-              <ul className="space-y-4 mb-8">
-                <li className="flex items-start">
-                  <span className="bg-[#22c55e] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 text-sm">
-                    ✓
-                  </span>
+              <ul className="grid sm:grid-cols-2 gap-6 mb-10">
+                <li className="flex items-start gap-3">
+                  <div className="w-6 h-6 rounded-full bg-[#1a3a4a] text-white flex items-center justify-center flex-shrink-0 text-xs mt-1">
+                    01
+                  </div>
                   <div>
-                    <strong className="text-[#1a3a4a]">Works with ANY litter</strong>
-                    <p className="text-sm text-neutral-600">
-                      Clay, clumping, crystal, natural &mdash;{" "}
-                      <a
-                        href="https://www.purrify.ca"
-                        target="_blank"
-                        rel="noopener"
-                        className="purrify-link"
-                      >
-                        Purrify enhances them all
-                      </a>
-                    </p>
+                    <h4 className="font-bold text-[#1a3a4a]">High Surface Area</h4>
+                    <p className="text-sm text-neutral-500">Typical internal surface area of 1,000+ m²/g.</p>
                   </div>
                 </li>
-                <li className="flex items-start">
-                  <span className="bg-[#22c55e] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 text-sm">
-                    ✓
-                  </span>
+                <li className="flex items-start gap-3">
+                  <div className="w-6 h-6 rounded-full bg-[#1a3a4a] text-white flex items-center justify-center flex-shrink-0 text-xs mt-1">
+                    02
+                  </div>
                   <div>
-                    <strong className="text-[#1a3a4a]">100% coconut-based</strong>
-                    <p className="text-sm text-neutral-600">
-                      Natural, sustainable, and safe if ingested
-                    </p>
+                    <h4 className="font-bold text-[#1a3a4a]">Cross-Substrate</h4>
+                    <p className="text-sm text-neutral-500">Functions independently of the base litter material.</p>
                   </div>
                 </li>
-                <li className="flex items-start">
-                  <span className="bg-[#22c55e] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 text-sm">
-                    ✓
-                  </span>
+                <li className="flex items-start gap-3">
+                  <div className="w-6 h-6 rounded-full bg-[#1a3a4a] text-white flex items-center justify-center flex-shrink-0 text-xs mt-1">
+                    03
+                  </div>
                   <div>
-                    <strong className="text-[#1a3a4a]">7 days without smell</strong>
-                    <p className="text-sm text-neutral-600">
-                      Molecular trapping keeps odors locked away
-                    </p>
+                    <h4 className="font-bold text-[#1a3a4a]">Passive Mitigation</h4>
+                    <p className="text-sm text-neutral-500">Requires no mechanical energy or chemical reagents.</p>
                   </div>
                 </li>
-                <li className="flex items-start">
-                  <span className="bg-[#22c55e] text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 text-sm">
-                    ✓
-                  </span>
+                <li className="flex items-start gap-3">
+                  <div className="w-6 h-6 rounded-full bg-[#1a3a4a] text-white flex items-center justify-center flex-shrink-0 text-xs mt-1">
+                    04
+                  </div>
                   <div>
-                    <strong className="text-[#1a3a4a]">Cat-approved</strong>
-                    <p className="text-sm text-neutral-600">
-                      Cats don&apos;t even notice it &mdash; no texture issues
-                    </p>
+                    <h4 className="font-bold text-[#1a3a4a]">Eco-Compliant</h4>
+                    <p className="text-sm text-neutral-500">Derived from sustainable organic precursors.</p>
                   </div>
                 </li>
               </ul>
@@ -196,19 +171,19 @@ export default function CatLitterPage() {
                 href="https://www.purrify.ca"
                 target="_blank"
                 rel="noopener"
-                className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold transition-colors"
+                className="inline-block bg-[#1a3a4a] hover:bg-[#0f2a36] text-white px-10 py-4 rounded-full font-bold text-lg transition-all shadow-xl"
               >
-                Try Purrify Risk-Free
+                Access Technical Partner Site
               </a>
             </div>
-            <div className="relative h-80 lg:h-[500px] rounded-2xl overflow-hidden">
-              {/* Placeholder: Happy cat with clean litter box or product shot */}
+            <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl group">
               <Image
-                src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=600&h=800&fit=crop"
-                alt="Happy cat - Purrify keeps homes fresh"
+                src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=800&h=1000&fit=crop"
+                alt="Analytical focus on feline environment"
                 fill
-                className="object-cover"
+                className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
               />
+              <div className="absolute inset-0 bg-[#1a3a4a]/20 mix-blend-multiply"></div>
             </div>
           </div>
         </div>
@@ -297,22 +272,14 @@ export default function CatLitterPage() {
         </div>
       </section>
 
-      {/* Product Showcase */}
-      <section className="py-16 bg-neutral-50">
+      {/* Implementation Specifications */}
+      <section className="py-24 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center text-[#1a3a4a] mb-4">
-            Choose Your Size
+          <h2 className="text-2xl font-black text-center text-[#1a3a4a] mb-2 uppercase tracking-tighter">
+            System Implementation Sizes
           </h2>
-          <p className="text-neutral-600 text-center max-w-2xl mx-auto mb-12">
-            <a
-              href="https://www.purrify.ca"
-              target="_blank"
-              rel="noopener"
-              className="purrify-link"
-            >
-              Purrify activated carbon additive
-            </a>{" "}
-            comes in three convenient sizes
+          <p className="text-neutral-500 text-center max-w-2xl mx-auto mb-16 font-light">
+            Technical specifications for residential implementations of porous carbon media.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6">
@@ -494,43 +461,33 @@ export default function CatLitterPage() {
         </div>
       </section>
 
-      {/* Final CTA */}
-      <section className="py-16 bg-[#1a3a4a]">
+      {/* Technical Summary CTA */}
+      <section className="py-24 bg-[#1a3a4a]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Ready to Upgrade Your Litter Box?
+          <h2 className="text-3xl sm:text-4xl font-black text-white mb-6">
+            Data-Driven Environmental Control
           </h2>
-          <p className="text-[#b6e3f4] text-lg mb-8 max-w-2xl mx-auto">
-            Stop fighting with crystal litter. Try{" "}
-            <a
-              href="https://www.purrify.ca"
-              target="_blank"
-              rel="noopener"
-              className="text-white underline hover:text-[#22c55e] transition-colors"
-            >
-              Purrify&apos;s natural activated carbon
-            </a>{" "}
-            with your existing litter and experience the difference.
+          <p className="text-[#b6e3f4] text-lg mb-12 max-w-2xl mx-auto font-light leading-relaxed">
+            Transitioning from moisture-centric absorption to molecular adsorption represents
+            the current evolution in feline habitat management. Explore technical implementations
+            validated for Canadian residential standards.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://www.purrify.ca"
               target="_blank"
               rel="noopener"
-              className="bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold text-lg transition-colors"
+              className="bg-[#22c55e] hover:bg-[#1db053] text-white px-10 py-5 rounded-full font-bold text-lg transition-all shadow-xl shadow-green-500/10"
             >
-              Shop Purrify Now
+              Review Verification Standards
             </a>
             <Link
               href="/science"
-              className="border-2 border-white hover:bg-white hover:text-[#1a3a4a] text-white px-8 py-4 rounded-full font-semibold text-lg transition-colors"
+              className="bg-transparent border-2 border-white/20 hover:border-white text-white px-10 py-5 rounded-full font-bold text-lg transition-all"
             >
-              Learn the Science
+              Examine the Science
             </Link>
           </div>
-          <p className="text-[#b6e3f4]/70 text-sm mt-6">
-            30-day money-back guarantee • Free shipping on subscriptions
-          </p>
         </div>
       </section>
     </>

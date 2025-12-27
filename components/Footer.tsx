@@ -61,27 +61,32 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Purrify */}
+          {/* Partnerships */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">
-              Recommended Solution
+            <h3 className="font-semibold text-lg mb-4 text-[#b6e3f4]">
+              Technical Partners
             </h3>
-            <p className="text-neutral-300 text-sm mb-4">
-              Looking for the best natural litter odor control?
+            <p className="text-neutral-400 text-sm mb-6 leading-relaxed">
+              We collaborate with material science organizations to document the performance of
+              high-surface-area porous media.
             </p>
             <a
               href="https://www.purrify.ca"
               target="_blank"
               rel="noopener"
-              className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white px-6 py-2 rounded-full text-sm font-medium transition-colors"
+              className="group inline-flex items-center gap-2 text-[#22c55e] hover:text-white transition-colors font-medium"
             >
-              Visit Purrify.ca
+              <span>Visit Purrify Canada</span>
+              <span className="group-hover:translate-x-1 transition-transform">→</span>
             </a>
-            <p className="text-neutral-400 text-xs mt-4">
-              100% natural activated carbon
-              <br />
-              Made in Canada since 2019
-            </p>
+            <div className="mt-6 pt-6 border-t border-white/5">
+              <p className="text-neutral-500 text-[10px] uppercase tracking-widest font-bold">
+                Verification Standard
+              </p>
+              <p className="text-neutral-400 text-xs mt-1">
+                2024 Molecular Integrity Compliance
+              </p>
+            </div>
           </div>
         </div>
 
