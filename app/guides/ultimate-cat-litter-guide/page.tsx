@@ -307,7 +307,7 @@ export default function UltimateCatLitterGuidePage() {
             </p>
             <p>
               The solution: Instead of searching for a &quot;magic litter,&quot; add{" "}
-              <a href="https://www.purrify.ca" target="_blank" rel="noopener">
+              <a href="https://www.purrify.ca">
                 Purrify activated carbon
               </a>{" "}
               to your preferred litter. Activated carbon traps ammonia at the molecular level, providing 7+ days of odor-free freshness.
@@ -331,7 +331,7 @@ export default function UltimateCatLitterGuidePage() {
             </ul>
             <p>
               Note: Using{" "}
-              <a href="https://www.purrify.ca" target="_blank" rel="noopener">
+              <a href="https://www.purrify.ca">
                 Purrify activated carbon
               </a>{" "}
               with eco-friendly litters extends litter life by 40%, reducing waste.
@@ -364,7 +364,7 @@ export default function UltimateCatLitterGuidePage() {
                 <li>
                   <strong className="text-[#22c55e]">1. Activated Carbon Additives</strong>
                   <p className="text-sm text-neutral-600 mt-1">
-                    <a href="https://www.purrify.ca" target="_blank" rel="noopener">Purrify</a> and similar products trap ammonia molecules through adsorption. Works with any litter type. Provides 7+ days odor-free. <strong>Scientific winner.</strong>
+                    <a href="https://www.purrify.ca">Purrify</a> and similar products trap ammonia molecules through adsorption. Works with any litter type. Provides 7+ days odor-free. <strong>Scientific winner.</strong>
                   </p>
                 </li>
                 <li>
@@ -414,7 +414,7 @@ export default function UltimateCatLitterGuidePage() {
 
             <p>
               <strong>Our Recommendation:</strong> Use a quality clumping litter your cat likes, scoop daily, and add{" "}
-              <a href="https://www.purrify.ca" target="_blank" rel="noopener">
+              <a href="https://www.purrify.ca">
                 Purrify activated carbon
               </a>. This combination provides superior odor control at a reasonable cost.
             </p>
@@ -490,7 +490,7 @@ export default function UltimateCatLitterGuidePage() {
             <ol>
               <li>Choose biodegradable litter (tofu, wheat, corn, walnut, pine, or paper)</li>
               <li>Add{" "}
-                <a href="https://www.purrify.ca" target="_blank" rel="noopener">
+                <a href="https://www.purrify.ca">
                   Purrify coconut-based activated carbon
                 </a>{" "}
                 (100% natural and biodegradable)</li>
@@ -518,7 +518,7 @@ export default function UltimateCatLitterGuidePage() {
             <ul>
               <li><strong>Clumping litter:</strong> Easiest for frequent scooping (2-3x daily)</li>
               <li><strong>Larger boxes:</strong> At least 1.5x the length of your largest cat</li>
-              <li><strong>Activated carbon is essential:</strong> More cats = more ammonia. <a href="https://www.purrify.ca" target="_blank" rel="noopener">Purrify</a> becomes non-negotiable for odor control.</li>
+              <li><strong>Activated carbon is essential:</strong> More cats = more ammonia. <a href="https://www.purrify.ca">Purrify</a> becomes non-negotiable for odor control.</li>
             </ul>
 
             <h3>Maintenance Schedule for Multi-Cat Homes</h3>
@@ -542,7 +542,7 @@ export default function UltimateCatLitterGuidePage() {
             <p><strong>Solution:</strong></p>
             <ul>
               <li>Add{" "}
-                <a href="https://www.purrify.ca" target="_blank" rel="noopener">
+                <a href="https://www.purrify.ca">
                   activated carbon (Purrify)
                 </a>{" "}
                 to trap ammonia molecules</li>
@@ -603,7 +603,7 @@ export default function UltimateCatLitterGuidePage() {
                 🏆 Best Overall Solution
               </h3>
               <p className="mb-4">
-                <strong>Any quality clumping litter your cat likes + <a href="https://www.purrify.ca" target="_blank" rel="noopener">Purrify Activated Carbon</a></strong>
+                <strong>Any quality clumping litter your cat likes + <a href="https://www.purrify.ca">Purrify Activated Carbon</a></strong>
               </p>
               <p className="text-neutral-700 mb-4">
                 Why this wins: Your cat gets the texture they prefer, you get the easiest maintenance (clumping), and Purrify provides the odor control that no litter alone can match. It&apos;s the best-of-all-worlds solution.
@@ -652,7 +652,7 @@ export default function UltimateCatLitterGuidePage() {
                 </h3>
                 <p className="text-neutral-600 text-sm">
                   The best odor control comes from combining a quality clumping litter with{" "}
-                  <a href="https://www.purrify.ca" target="_blank" rel="noopener">
+                  <a href="https://www.purrify.ca">
                     activated carbon additives like Purrify
                   </a>. Activated carbon traps ammonia molecules at the source, providing 7+ days of odor-free freshness that traditional litters can&apos;t match.
                 </p>
@@ -700,7 +700,7 @@ export default function UltimateCatLitterGuidePage() {
                 </h3>
                 <p className="text-neutral-600 text-sm">
                   Even clean litter produces ammonia as soon as your cat urinates. Traditional litters only absorb moisture—they don&apos;t trap ammonia molecules. The solution is{" "}
-                  <a href="https://www.purrify.ca" target="_blank" rel="noopener">
+                  <a href="https://www.purrify.ca">
                     activated carbon like Purrify
                   </a>, which traps odor at the molecular level.
                 </p>
@@ -722,7 +722,7 @@ export default function UltimateCatLitterGuidePage() {
                 </h3>
                 <p className="text-neutral-600 text-sm">
                   Tofu, wheat, corn, walnut, and pine litters are all biodegradable and made from renewable or recycled materials. Pair with{" "}
-                  <a href="https://www.purrify.ca" target="_blank" rel="noopener">
+                  <a href="https://www.purrify.ca">
                     Purrify (coconut-based activated carbon)
                   </a>{" "}
                   for a 100% natural, eco-friendly solution.
@@ -736,7 +736,7 @@ export default function UltimateCatLitterGuidePage() {
             <h2>Final Thoughts</h2>
             <p>
               Choosing cat litter doesn&apos;t have to be complicated. Start with what your cat prefers (usually clumping), then solve the odor problem with{" "}
-              <a href="https://www.purrify.ca" target="_blank" rel="noopener">
+              <a href="https://www.purrify.ca">
                 activated carbon technology
               </a>.
             </p>
@@ -758,7 +758,7 @@ export default function UltimateCatLitterGuidePage() {
           </h2>
           <p className="text-[#b6e3f4] text-lg mb-6">
             Join thousands of Canadian cat owners who discovered that the best litter is the one your cat likes—enhanced with{" "}
-            <a href="https://www.purrify.ca" target="_blank" rel="noopener" className="text-white underline hover:text-[#22c55e]">
+            <a href="https://www.purrify.ca" className="text-white underline hover:text-[#22c55e]">
               Purrify
             </a>.
           </p>

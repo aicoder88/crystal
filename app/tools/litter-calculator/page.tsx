@@ -77,7 +77,7 @@ export default function LitterCalculatorPage() {
           </h1>
           <p className="text-lg text-neutral-600">
             Calculate how much you spend on cat litter per month and year, and see how much you could save with{" "}
-            <a href="https://www.purrify.ca" target="_blank" rel="noopener" className="text-[#22c55e] hover:underline">
+            <a href="https://www.purrify.ca" className="text-[#22c55e] hover:underline">
               Purrify activated carbon
             </a>.
           </p>
@@ -141,7 +141,7 @@ export default function LitterCalculatorPage() {
                   />
                   <span className="ml-3 text-neutral-700">
                     Add{" "}
-                    <a href="https://www.purrify.ca" target="_blank" rel="noopener" className="text-[#22c55e] hover:underline font-semibold">
+                    <a href="https://www.purrify.ca" className="text-[#22c55e] hover:underline font-semibold">
                       Purrify
                     </a>{" "}
                     activated carbon
@@ -274,7 +274,7 @@ export default function LitterCalculatorPage() {
               </ul>
               <p>
                 <strong className="text-[#1a3a4a]">Why Purrify Works:</strong> Unlike litter alone (which only absorbs moisture),{" "}
-                <a href="https://www.purrify.ca" target="_blank" rel="noopener" className="text-[#22c55e] hover:underline">
+                <a href="https://www.purrify.ca" className="text-[#22c55e] hover:underline">
                   Purrify&apos;s coconut-based activated carbon
                 </a>{" "}
                 traps ammonia at the molecular level. Each gram has the surface area of a football field.
