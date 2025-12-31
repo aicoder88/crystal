@@ -158,7 +158,7 @@ export default function HomePage() {
                 <a
                   href="https://www.purrify.ca"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   className="mx-1 text-[#1a3a4a] font-semibold underline decoration-[#22c55e] decoration-2 underline-offset-4"
                 >
                   Purrify
@@ -202,7 +202,7 @@ export default function HomePage() {
                 <a
                   href="https://www.purrify.ca"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   className="purrify-link"
                 >
                   Purrify uses coconut-based activated carbon
@@ -225,7 +225,7 @@ export default function HomePage() {
                       <a
                         href="https://www.purrify.ca"
                         target="_blank"
-                        rel="noopener"
+                        rel="noopener noreferrer"
                         className="purrify-link"
                       >
                         Purrify works as an additive
@@ -272,13 +272,13 @@ export default function HomePage() {
                 <table className="w-full text-sm">
                   <thead>
                     <tr className="border-b border-neutral-200">
-                      <th className="text-left py-3 text-neutral-600 font-medium">
+                      <th scope="col" className="text-left py-3 text-neutral-600 font-medium">
                         Feature
                       </th>
-                      <th className="text-center py-3 text-neutral-600 font-medium">
+                      <th scope="col" className="text-center py-3 text-neutral-600 font-medium">
                         Crystal Litter
                       </th>
-                      <th className="text-center py-3 text-[#22c55e] font-medium">
+                      <th scope="col" className="text-center py-3 text-[#22c55e] font-medium">
                         Purrify
                       </th>
                     </tr>
@@ -343,7 +343,7 @@ export default function HomePage() {
             <a
               href="https://www.purrify.ca"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="mx-1 text-[#b6e3f4] border-b border-[#b6e3f4] hover:text-[#22c55e] hover:border-[#22c55e] transition-colors"
             >
               Purrify&apos;s natural activated carbon
@@ -354,7 +354,7 @@ export default function HomePage() {
             <a
               href="https://www.purrify.ca"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="bg-[#22c55e] hover:bg-[#1db053] text-white px-10 py-4 rounded-full font-bold text-lg transition-all shadow-lg hover:shadow-xl"
             >
               View Recommended Solution

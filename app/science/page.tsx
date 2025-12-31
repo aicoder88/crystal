@@ -117,7 +117,7 @@ export default function SciencePage() {
               {/* Placeholder: Cat near litter box or silica gel crystals */}
               <Image
                 src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=600&h=400&fit=crop"
-                alt="Cat looking curious"
+                alt="Curious cat near a litter box, demonstrating comfort with crystal litter alternatives"
                 fill
                 className="object-cover"
               />
@@ -150,7 +150,7 @@ export default function SciencePage() {
                 <a
                   href="https://www.purrify.ca"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   className="purrify-link"
                 >
                   Purrify&apos;s activated carbon
@@ -197,15 +197,15 @@ export default function SciencePage() {
             <table className="w-full">
               <thead>
                 <tr className="bg-[#1a3a4a] text-white">
-                  <th className="text-left py-4 px-6 font-medium">Feature</th>
-                  <th className="text-center py-4 px-6 font-medium">
+                  <th scope="col" className="text-left py-4 px-6 font-medium">Feature</th>
+                  <th scope="col" className="text-center py-4 px-6 font-medium">
                     Crystal Cat Litter
                   </th>
-                  <th className="text-center py-4 px-6 font-medium bg-[#22c55e]">
+                  <th scope="col" className="text-center py-4 px-6 font-medium bg-[#22c55e]">
                     <a
                       href="https://www.purrify.ca"
                       target="_blank"
-                      rel="noopener"
+                      rel="noopener noreferrer"
                       className="text-white hover:underline"
                     >
                       Purrify Activated Carbon
@@ -295,7 +295,7 @@ export default function SciencePage() {
             <a
               href="https://www.purrify.ca"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="text-white underline hover:text-[#22c55e] transition-colors"
             >
               Purrify&apos;s molecular trapping technology
@@ -306,7 +306,7 @@ export default function SciencePage() {
             <a
               href="https://www.purrify.ca"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold transition-colors"
             >
               Try Purrify Today
@@ -341,7 +341,7 @@ export default function SciencePage() {
                 <a
                   href="https://www.purrify.ca"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   className="purrify-link"
                 >
                   Purrify uses adsorption
@@ -363,7 +363,7 @@ export default function SciencePage() {
                 <a
                   href="https://www.purrify.ca"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   className="purrify-link"
                 >
                   Purrify sources only premium coconut carbon

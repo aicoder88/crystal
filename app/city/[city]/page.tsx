@@ -152,7 +152,7 @@ export default async function CityPage({ params }: PageProps) {
             <a
               href="https://www.purrify.ca"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold transition-colors"
             >
               Get Purrify Shipped to {city.name}
@@ -220,7 +220,7 @@ export default async function CityPage({ params }: PageProps) {
           <a
             href="https://www.purrify.ca"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold transition-colors"
           >
             Try Purrify Risk-Free

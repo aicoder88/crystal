@@ -431,10 +431,10 @@ export default function UltimateCatLitterGuidePage() {
             <table className="w-full mt-4">
               <thead>
                 <tr>
-                  <th className="text-left">Litter Type</th>
-                  <th className="text-left">Biodegradable?</th>
-                  <th className="text-left">Source Sustainability</th>
-                  <th className="text-left">Disposal</th>
+                  <th scope="col" className="text-left">Litter Type</th>
+                  <th scope="col" className="text-left">Biodegradable?</th>
+                  <th scope="col" className="text-left">Source Sustainability</th>
+                  <th scope="col" className="text-left">Disposal</th>
                 </tr>
               </thead>
               <tbody>
@@ -619,7 +619,7 @@ export default function UltimateCatLitterGuidePage() {
                 <a
                   href="https://www.purrify.ca"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white px-6 py-3 rounded-full font-semibold transition-colors"
                 >
                   Try Purrify Risk-Free
@@ -765,7 +765,7 @@ export default function UltimateCatLitterGuidePage() {
           <a
             href="https://www.purrify.ca"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold transition-colors text-lg"
           >
             Try Purrify Risk-Free

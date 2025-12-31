@@ -137,7 +137,7 @@ export default function PrivacyPage() {
               <a
                 href="https://www.purrify.ca"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 className="text-[#22c55e] hover:underline"
               >
                 purrify.ca

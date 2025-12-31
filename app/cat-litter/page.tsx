@@ -50,7 +50,7 @@ export default function CatLitterPage() {
             <a
               href="https://www.purrify.ca"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="bg-white border-2 border-[#1a3a4a]/10 hover:border-[#1a3a4a] text-[#1a3a4a] px-10 py-4 rounded-full font-semibold text-lg transition-all"
             >
               View Specifications
@@ -170,7 +170,7 @@ export default function CatLitterPage() {
               <a
                 href="https://www.purrify.ca"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 className="inline-block bg-[#1a3a4a] hover:bg-[#0f2a36] text-white px-10 py-4 rounded-full font-bold text-lg transition-all shadow-xl"
               >
                 Access Technical Partner Site
@@ -179,7 +179,7 @@ export default function CatLitterPage() {
             <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl group">
               <Image
                 src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=800&h=1000&fit=crop"
-                alt="Analytical focus on feline environment"
+                alt="Cat in a clean home environment showcasing effective odor control solutions"
                 fill
                 className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
               />
@@ -235,7 +235,7 @@ export default function CatLitterPage() {
                 <a
                   href="https://www.purrify.ca"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   className="hover:underline"
                 >
                   Purrify + Your Favorite Litter
@@ -297,7 +297,7 @@ export default function CatLitterPage() {
               <a
                 href="https://www.purrify.ca"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 className="block w-full bg-neutral-100 hover:bg-neutral-200 text-[#1a3a4a] py-3 rounded-full font-medium transition-colors"
               >
                 Buy Trial
@@ -323,7 +323,7 @@ export default function CatLitterPage() {
               <a
                 href="https://www.purrify.ca"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 className="block w-full bg-[#22c55e] hover:bg-[#16a34a] text-white py-3 rounded-full font-medium transition-colors"
               >
                 Buy Standard
@@ -344,7 +344,7 @@ export default function CatLitterPage() {
               <a
                 href="https://www.purrify.ca"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 className="block w-full bg-neutral-100 hover:bg-neutral-200 text-[#1a3a4a] py-3 rounded-full font-medium transition-colors"
               >
                 Buy Family Pack
@@ -394,7 +394,7 @@ export default function CatLitterPage() {
               <a
                 href="https://www.purrify.ca"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 className="purrify-link"
               >
                 Purrify
@@ -476,7 +476,7 @@ export default function CatLitterPage() {
             <a
               href="https://www.purrify.ca"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="bg-[#22c55e] hover:bg-[#1db053] text-white px-10 py-5 rounded-full font-bold text-lg transition-all shadow-xl shadow-green-500/10"
             >
               Review Verification Standards

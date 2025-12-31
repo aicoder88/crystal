@@ -62,7 +62,7 @@ export default function CrystalLitterGuidePage() {
               {/* Placeholder: Close-up of silica gel crystals */}
               <Image
                 src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?w=600&h=400&fit=crop"
-                alt="Cat looking at camera"
+                alt="Orange tabby cat sitting comfortably, representing a happy cat owner experience"
                 fill
                 className="object-cover"
               />
@@ -242,7 +242,7 @@ export default function CrystalLitterGuidePage() {
                   <a
                     href="https://www.purrify.ca"
                     target="_blank"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                     className="hover:text-[#22c55e] transition-colors"
                   >
                     Purrify Activated Carbon
@@ -253,7 +253,7 @@ export default function CrystalLitterGuidePage() {
                   <a
                     href="https://www.purrify.ca"
                     target="_blank"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                     className="purrify-link"
                   >
                     Purrify is a natural additive
@@ -282,7 +282,7 @@ export default function CrystalLitterGuidePage() {
                 <a
                   href="https://www.purrify.ca"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white px-6 py-3 rounded-full font-semibold transition-colors"
                 >
                   Try Purrify Today
@@ -292,7 +292,7 @@ export default function CrystalLitterGuidePage() {
                 {/* Placeholder: Happy cat or Purrify product */}
                 <Image
                   src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?w=500&h=400&fit=crop"
-                  alt="Content cat - Purrify keeps homes fresh"
+                  alt="Relaxed cat resting peacefully in a fresh, odor-free home environment"
                   fill
                   className="object-cover"
                 />
@@ -312,17 +312,17 @@ export default function CrystalLitterGuidePage() {
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b border-neutral-200">
-                  <th className="text-left py-4 px-4 font-medium text-neutral-600">
+                  <th scope="col" className="text-left py-4 px-4 font-medium text-neutral-600">
                     Concern
                   </th>
-                  <th className="text-center py-4 px-4 font-medium text-neutral-600">
+                  <th scope="col" className="text-center py-4 px-4 font-medium text-neutral-600">
                     Crystal Litter
                   </th>
-                  <th className="text-center py-4 px-4 font-medium text-[#22c55e]">
+                  <th scope="col" className="text-center py-4 px-4 font-medium text-[#22c55e]">
                     <a
                       href="https://www.purrify.ca"
                       target="_blank"
-                      rel="noopener"
+                      rel="noopener noreferrer"
                       className="hover:underline"
                     >
                       Purrify + Any Litter
@@ -426,7 +426,7 @@ export default function CrystalLitterGuidePage() {
                 <a
                   href="https://www.purrify.ca"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   className="purrify-link"
                 >
                   activated carbon additives like Purrify
@@ -443,7 +443,7 @@ export default function CrystalLitterGuidePage() {
                 <a
                   href="https://www.purrify.ca"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                   className="purrify-link"
                 >
                   activated carbon additives like Purrify
@@ -468,7 +468,7 @@ export default function CrystalLitterGuidePage() {
             <a
               href="https://www.purrify.ca"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="text-white underline hover:text-[#22c55e] transition-colors"
             >
               Purrify activated carbon
@@ -479,7 +479,7 @@ export default function CrystalLitterGuidePage() {
             <a
               href="https://www.purrify.ca"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold text-lg transition-colors"
             >
               Shop Purrify

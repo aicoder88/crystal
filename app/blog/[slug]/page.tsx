@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getBlogPostBySlug, getAllBlogSlugs } from "@/app/lib/blog-posts";
+import { sanitizeHtmlWithSecureLinks } from "@/app/lib/sanitize";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -111,7 +112,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               prose-a:text-[#22c55e] prose-a:no-underline hover:prose-a:underline
               prose-li:text-neutral-600
               prose-strong:text-[#1a3a4a]"
-            dangerouslySetInnerHTML={{ __html: post.content }}
+            dangerouslySetInnerHTML={{ __html: sanitizeHtmlWithSecureLinks(post.content) }}
           />
 
           {/* FAQ Section */}
@@ -140,7 +141,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             <a
               href="https://www.purrify.ca"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold transition-colors"
             >
               Try Purrify Today

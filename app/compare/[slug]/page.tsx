@@ -170,7 +170,7 @@ export default async function ComparisonPage({ params }: PageProps) {
               <a
                 href="https://www.purrify.ca"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
                 className="bg-[#1a3a4a] hover:bg-[#0f2a36] text-white px-8 py-3 rounded-full font-semibold transition-all shadow-md"
               >
                 Access Recommended Solution
@@ -253,7 +253,7 @@ export default async function ComparisonPage({ params }: PageProps) {
           <a
             href="https://www.purrify.ca"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             className="inline-block bg-[#22c55e] hover:bg-[#1db053] text-white px-10 py-4 rounded-full font-bold text-lg transition-all shadow-lg shadow-[#22c55e]/20"
           >
             Access Recommended Carbon Media
