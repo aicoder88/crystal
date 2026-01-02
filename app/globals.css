@@ -46,3 +46,61 @@ html {
   color: var(--accent-green);
   text-decoration-color: var(--accent-green);
 }
+
+/* Screen reader only text - visually hidden but accessible */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Show when focused (for skip links) */
+.sr-only:focus {
+  position: fixed;
+  width: auto;
+  height: auto;
+  padding: 1rem 1.5rem;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  background-color: var(--accent-green);
+  color: white;
+  z-index: 9999;
+  top: 1rem;
+  left: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Focus visible styles for keyboard navigation */
+*:focus-visible {
+  outline: 3px solid var(--accent-green);
+  outline-offset: 2px;
+}
+
+/* Focus styles for links */
+a:focus-visible {
+  outline: 3px solid var(--accent-green);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Focus styles for buttons */
+button:focus-visible {
+  outline: 3px solid var(--accent-green);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.2);
+}
+
+/* Remove default focus styles only when :focus-visible is supported */
+*:focus:not(:focus-visible) {
+  outline: none;
+}

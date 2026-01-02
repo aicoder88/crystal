@@ -1,18 +1,34 @@
-interface BreadcrumbItem {
-  name: string;
-  url: string;
+import type { BreadcrumbItem, BreadcrumbListSchemaData } from "./types";
+
+export interface BreadcrumbSchemaProps {
+  items: BreadcrumbItem[];
 }
 
-export default function BreadcrumbSchema({ items }: { items: BreadcrumbItem[] }) {
-  const schema = {
+/**
+ * Breadcrumb structured data for SEO.
+ * Renders a JSON-LD script tag with BreadcrumbList schema.
+ *
+ * Server component - no client-side JavaScript required.
+ *
+ * @example
+ * <BreadcrumbSchema
+ *   items={[
+ *     { name: "Home", url: "https://example.com" },
+ *     { name: "Blog", url: "https://example.com/blog" },
+ *     { name: "Article Title", url: "https://example.com/blog/article" }
+ *   ]}
+ * />
+ */
+export default function BreadcrumbSchema({ items }: BreadcrumbSchemaProps) {
+  const schema: BreadcrumbListSchemaData = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    "itemListElement": items.map((item, index) => ({
+    itemListElement: items.map((item, index) => ({
       "@type": "ListItem",
-      "position": index + 1,
-      "name": item.name,
-      "item": item.url
-    }))
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
   };
 
   return (
@@ -22,3 +38,6 @@ export default function BreadcrumbSchema({ items }: { items: BreadcrumbItem[] })
     />
   );
 }
+
+// Re-export type for convenience
+export type { BreadcrumbItem };
