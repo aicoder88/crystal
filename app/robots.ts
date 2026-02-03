@@ -5,7 +5,9 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
+      disallow: ["/api/", "/admin/"],
     },
-    sitemap: "https://crystaldeodorantprotection.com/sitemap.xml",
+    host: "https://www.crystaldeodorantprotection.com",
+    sitemap: "https://www.crystaldeodorantprotection.com/sitemap.xml",
   };
 }

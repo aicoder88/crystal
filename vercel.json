@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "crystaldeodorantprotection.com" }],
+      "destination": "https://www.crystaldeodorantprotection.com/:path*",
+      "permanent": true
+    }
+  ]
+}

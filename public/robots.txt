@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+Host: https://www.crystaldeodorantprotection.com
+Sitemap: https://www.crystaldeodorantprotection.com/sitemap.xml

@@ -61,7 +61,7 @@ export default function HomePage() {
                 {/* Placeholder: Close-up of crystal deodorant stone on bathroom counter */}
                 <Image
                   src="/images/crystal_deodorant.png"
-                  alt="Crystal Deodorant Stone"
+                  alt="Natural crystal deodorant stone made from potassium alum, a transparent mineral used for body odor control"
                   fill
                   className="object-cover"
                 />
