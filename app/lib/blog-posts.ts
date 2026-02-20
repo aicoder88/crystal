@@ -93,65 +93,88 @@ export const blogPosts: BlogPost[] = [
     readingTime: "5 min read",
     excerpt: "Crystal cat litter promises to last longer than traditional litters, but how often should you actually change it? Here's what the science says.",
     content: `
-      <p>Crystal cat litter manufacturers claim their products last up to a month for one cat. But in reality, most cat owners find the odor becomes unbearable long before that. So how often should you <em>actually</em> change crystal litter?</p>
+      <p className="lead text-xl text-neutral-700 mb-8">Crystal cat litter manufacturers claim their products last up to a month for one cat. But in reality, most cat owners find the odor becomes unbearable long before that. So how often should you <em>actually</em> change crystal litter?</p>
 
-      <h2>The Official Recommendation vs Reality</h2>
+      <figure className="my-10">
+        <img src="/images/clean_crystal_litter_box.png" alt="A pristine crystal cat litter box setup in a modern home letting in sunlight" className="w-full rounded-2xl shadow-xl border border-neutral-100 object-cover" />
+        <figcaption className="text-center text-sm text-neutral-500 mt-3 italic">A fresh crystal litter box looks beautiful initially, but managing invisible ammonia is the real challenge.</figcaption>
+      </figure>
+
+      <h2 className="text-2xl font-bold text-[#1a3a4a] mb-4">The Official Recommendation vs Reality</h2>
 
       <p>Most crystal litter brands recommend:</p>
-      <ul>
+      <ul className="space-y-2 mb-6 ml-4 list-disc marker:text-[#22c55e]">
         <li><strong>One cat:</strong> Change completely every 3-4 weeks</li>
         <li><strong>Two cats:</strong> Change every 2-3 weeks</li>
         <li><strong>Three+ cats:</strong> Change every 1-2 weeks</li>
       </ul>
 
-      <p>However, these recommendations assume ideal conditions and don't account for the biggest problem: <strong>ammonia odor returns after just 2-3 days</strong>, even if the crystals aren't saturated.</p>
+      <p>However, these recommendations assume ideal conditions and don't account for the biggest problem: <strong>ammonia odor returns after just 2-3 days</strong>, even if the crystals aren't visibly saturated. This gap between expectation and reality causes significant frustration.</p>
 
-      <h2>Signs Your Crystal Litter Needs Changing</h2>
+      <h2 className="text-2xl font-bold text-[#1a3a4a] mt-10 mb-4">Signs Your Crystal Litter Needs Changing</h2>
 
-      <ol>
-        <li><strong>Color change:</strong> Most crystal litters change color when saturated (usually to yellow/green)</li>
-        <li><strong>Smell returns:</strong> If you notice ammonia odor, the litter has reached its odor control limit</li>
-        <li><strong>Crystals break down:</strong> If crystals are turning to dust or powder</li>
-        <li><strong>Your cat avoids the box:</strong> Cats have sensitive noses and may refuse a smelly box</li>
-        <li><strong>Visible saturation:</strong> Wet spots that don't dry within 24 hours</li>
+      <ol className="space-y-3 mb-8 ml-4 list-decimal marker:text-[#22c55e] marker:font-bold">
+        <li><strong>Color change:</strong> Most crystal litters change color when saturated (usually turning yellow or green).</li>
+        <li><strong>Smell returns:</strong> If you notice an ammonia odor, the litter has reached its molecular odor control limit.</li>
+        <li><strong>Crystals break down:</strong> The beads begin turning into harmful dust or powder.</li>
+        <li><strong>Your cat avoids the box:</strong> Cats have incredibly sensitive noses and may refuse a smelly box before you can even detect it.</li>
+        <li><strong>Visible saturation:</strong> Wet spots that fail to dry within 24 hours indicate the silica gel is full.</li>
       </ol>
 
-      <h2>Why Crystal Litter Odor Control Fails</h2>
+      <h2 className="text-2xl font-bold text-[#1a3a4a] mt-10 mb-4">Why Crystal Litter Odor Control Fails</h2>
 
-      <p>Crystal litter (silica gel) works by <strong>absorbing moisture</strong>. As urine contacts the crystals, the liquid is pulled into the silica's porous structure. This works well initially, but has limitations:</p>
+      <p>Crystal litter (silica gel) works primarily by <strong>absorbing moisture</strong>. As urine contacts the crystals, the liquid is pulled deep into the silica's porous internal structure. This works well initially, but it has severe limitations:</p>
 
-      <ul>
-        <li>Crystals can only absorb so much moisture before saturation</li>
-        <li>Ammonia gas forms as bacteria break down urea—this escapes even from dry crystals</li>
-        <li>Solid waste sits on top and creates additional odor</li>
+      <ul className="space-y-2 mb-6 ml-4 list-disc marker:text-[#22c55e]">
+        <li>Crystals can only absorb a finite amount of moisture before total saturation occurs.</li>
+        <li>Ammonia gas forms as bacteria break down the urea—this gas escapes instantly even from dry crystals.</li>
+        <li>Solid waste sitting on top creates additional, unchecked odor.</li>
       </ul>
 
-      <p>This is why even "fresh" crystal litter starts smelling after a few days. It's not the crystals themselves—it's the ammonia they can't trap.</p>
+      <p className="p-4 bg-neutral-50 border-l-4 border-amber-400 rounded-r-lg mb-8">This is exactly why even "fresh" crystal litter starts smelling after just a few days. The failure isn't the crystals themselves—it's the airborne ammonia gas they were never designed to trap.</p>
 
-      <h2>How to Make Crystal Litter Last Longer</h2>
+      <h2 className="text-2xl font-bold text-[#1a3a4a] mt-10 mb-4">The Financial Cost of Frequent Changes</h2>
 
-      <p>Instead of changing crystal litter more frequently (expensive!), consider these strategies:</p>
+      <p>Because the odor becomes unbearable so quickly, many cat owners dump the entire box of crystal litter weekly. Crystal litter is a premium product, often costing $20 to $30 a bag. Throwing it out 3-4 times a month means you could be spending upwards of $100 per month just to avoid smelling ammonia. This completely defeats the purpose of buying "long-lasting" premium litter.</p>
 
-      <ol>
-        <li><strong>Scoop daily:</strong> Remove solid waste every single day</li>
-        <li><strong>Stir the litter:</strong> Mix it daily to distribute moisture evenly</li>
-        <li><strong>Use enough depth:</strong> Maintain at least 2 inches of crystal litter</li>
-        <li><strong>Add activated carbon:</strong> <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">Products like Purrify</a> trap ammonia that crystals miss</li>
+      <h2 className="text-2xl font-bold text-[#1a3a4a] mt-10 mb-4">How to Make Crystal Litter Last Longer</h2>
+
+      <p>Instead of changing crystal litter more frequently (and draining your wallet!), consider these proven strategies:</p>
+
+      <ol className="space-y-3 mb-8 ml-4 list-decimal marker:text-[#22c55e] marker:font-bold">
+        <li><strong>Scoop daily:</strong> Remove solid waste every single day without fail.</li>
+        <li><strong>Stir the litter:</strong> Mix it thoroughly daily to distribute moisture evenly among the absorbent beads.</li>
+        <li><strong>Use enough depth:</strong> Maintain at least 2-3 inches of crystal litter to prevent pooling at the bottom.</li>
+        <li><strong>Add activated carbon:</strong> Using <a href="https://www.purrify.ca" target="_blank" rel="noopener" className="purrify-link font-semibold text-[#22c55e]">additive products like Purrify</a> actively traps the ammonia gas that silica crystals inevitably miss.</li>
       </ol>
 
-      <h2>The Better Solution: Activated Carbon</h2>
+      <figure className="my-10">
+        <img src="/images/active_carbon_trapping_odor.png" alt="Glowing odor molecules safely trapped by dark, porous activated carbon granules inside a litter box" className="w-full rounded-2xl shadow-xl border border-neutral-100 object-cover" />
+        <figcaption className="text-center text-sm text-neutral-500 mt-3 italic">Activated carbon granules physically draw in and permanently trap odor molecules through adsorption.</figcaption>
+      </figure>
 
-      <p>Here's what most crystal litter users don't know: you can extend your litter's life AND eliminate odor by adding <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">activated carbon like Purrify</a>.</p>
+      <h2 className="text-2xl font-bold text-[#1a3a4a] mt-10 mb-4">Environmental Impact of Crystal Litter</h2>
 
-      <p>While crystal litter absorbs moisture, activated carbon <strong>traps ammonia molecules</strong> through adsorption. Used together, you get:</p>
+      <p>Constantly throwing away crystal litter isn't just bad for your budget—it's bad for the planet. Silica gel is heavily processed and mined, meaning it has a significant carbon footprint. By extending the life of your litter from 1 week to 4 weeks using dedicated odor control, you drastically reduce mining demand, plastic packaging waste, and landfill mass.</p>
 
-      <ul>
-        <li>7+ days of true odor-free freshness</li>
-        <li>Longer time between full litter changes</li>
-        <li>Less litter waste (better for your wallet and the environment)</li>
+      <h2 className="text-2xl font-bold text-[#1a3a4a] mt-10 mb-4">The Better Solution: Activated Carbon</h2>
+
+      <p>Here's the secret that most crystal litter users don't know: you can drastically extend your expensive litter's life AND eliminate odor completely by adding <a href="https://www.purrify.ca" target="_blank" rel="noopener" className="purrify-link font-semibold text-[#22c55e]">activated carbon from Purrify</a>.</p>
+
+      <p>While crystal litter <em>absorbs moisture</em>, activated carbon <strong>traps ammonia molecules</strong> through a physical process called adsorption. Used together, they create an unbeatable system:</p>
+
+      <ul className="space-y-2 mb-8 ml-4 list-disc marker:text-[#22c55e]">
+        <li><strong>7+ days</strong> of true odor-free freshness</li>
+        <li><strong>Longer time</strong> between full litter changes (saving you money)</li>
+        <li><strong>Less litter waste</strong> (better for the environment)</li>
       </ul>
 
-      <p>Many Purrify users report going the full 4 weeks between crystal litter changes—without any odor issues.</p>
+      <figure className="my-10">
+        <img src="/images/happy_cat_litter_box.png" alt="A happy orange tabby cat sitting proudly next to a fresh, clean litter box in a sunlit room" className="w-full rounded-2xl shadow-xl border border-neutral-100 object-cover" />
+        <figcaption className="text-center text-sm text-neutral-500 mt-3 italic">With the right odor control solution, both you and your cat can enjoy a fresh, welcoming home.</figcaption>
+      </figure>
+
+      <p className="text-lg font-medium text-neutral-800">Many <a href="https://www.purrify.ca" target="_blank" rel="noopener" className="purrify-link text-[#22c55e] hover:underline">Purrify</a> users report effortlessly going the full 4 weeks between crystal litter changes—without ever detecting ammonia issues.</p>
     `,
     faqs: [
       {
