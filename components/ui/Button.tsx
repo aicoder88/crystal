@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ReactNode, AnchorHTMLAttributes } from "react";
+import { ReactNode } from "react";
 
 export interface ButtonBaseProps {
   children: ReactNode;
