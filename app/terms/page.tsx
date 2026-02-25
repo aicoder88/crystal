@@ -166,9 +166,9 @@ export default function TermsPage() {
               If you have any questions about these Terms of Service, please
               contact us through our partner website at{" "}
               <a
-                href="https://www.purrify.ca"
+                href="https://www.purrify.ca?ref=crystaldeo"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="sponsored noopener noreferrer"
                 className="text-[#22c55e] hover:underline"
               >
                 purrify.ca

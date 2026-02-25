@@ -115,6 +115,65 @@ export default async function BlogPostPage({ params }: PageProps) {
             dangerouslySetInnerHTML={{ __html: sanitizeHtmlWithSecureLinks(post.content) }}
           />
 
+          {/* Scientific references shown on all blog posts */}
+          <section className="mt-10 bg-neutral-50 border border-neutral-200 rounded-xl p-6">
+            <h2 className="text-2xl font-bold text-[#1a3a4a] mb-4">
+              Scientific Resources
+            </h2>
+            <ul className="space-y-2 text-sm text-neutral-700">
+              <li>
+                <a
+                  href="https://en.wikipedia.org/wiki/Activated_carbon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#22c55e] hover:underline"
+                >
+                  Wikipedia: Activated carbon fundamentals
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://pubs.acs.org/doi/10.1021/es203093v"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#22c55e] hover:underline"
+                >
+                  ACS: Activated carbon ammonia adsorption research
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.sciencedirect.com/science/article/pii/S0960852406001222"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#22c55e] hover:underline"
+                >
+                  Bioresource Technology: Activated carbon from biomass
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.epa.gov/enviro"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#22c55e] hover:underline"
+                >
+                  U.S. EPA Envirofacts database
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.canada.ca/en/environment-climate-change/services/managing-reducing-waste/reducing-methane-emissions-landfills.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#22c55e] hover:underline"
+                >
+                  Environment and Climate Change Canada waste data
+                </a>
+              </li>
+            </ul>
+          </section>
+
           {/* FAQ Section */}
           <section className="mt-12 pt-8 border-t border-neutral-200">
             <h2 className="text-2xl font-bold text-[#1a3a4a] mb-6">
@@ -139,9 +198,9 @@ export default async function BlogPostPage({ params }: PageProps) {
               Join thousands of Canadian cat owners who discovered the power of activated carbon.
             </p>
             <a
-              href="https://www.purrify.ca"
+              href="https://www.purrify.ca?ref=crystaldeo"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold transition-colors"
             >
               Try Purrify Today

@@ -102,7 +102,7 @@ export default async function CityPage({ params }: PageProps) {
 
           <p className="text-neutral-600 mb-6">
             That&apos;s why thousands of {city.name} cat owners have discovered{" "}
-            <a href="https://www.purrify.ca" className="purrify-link">
+            <a href="https://www.purrify.ca?ref=crystaldeo" className="purrify-link" rel="sponsored noopener noreferrer">
               Purrify activated carbon
             </a>—the natural solution that actually works, no matter what litter you use.
           </p>
@@ -118,7 +118,7 @@ export default async function CityPage({ params }: PageProps) {
 
           <div className="bg-white rounded-2xl p-6 border border-neutral-200 mb-8">
             <h3 className="text-xl font-semibold text-[#1a3a4a] mb-4">
-              Why <a href="https://www.purrify.ca" className="text-[#22c55e] hover:underline">Purrify</a> Works for {city.name} Homes
+              Why <a href="https://www.purrify.ca?ref=crystaldeo" className="text-[#22c55e] hover:underline" rel="sponsored noopener noreferrer">Purrify</a> Works for {city.name} Homes
             </h3>
             <ul className="space-y-3">
               <li className="flex items-start">
@@ -150,9 +150,9 @@ export default async function CityPage({ params }: PageProps) {
 
           <div className="text-center">
             <a
-              href="https://www.purrify.ca"
+              href="https://www.purrify.ca?ref=crystaldeo"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold transition-colors"
             >
               Get Purrify Shipped to {city.name}
@@ -171,7 +171,7 @@ export default async function CityPage({ params }: PageProps) {
             Also Serving {city.name} Area
           </h2>
           <p className="text-neutral-600 mb-6">
-            <a href="https://www.purrify.ca" className="purrify-link">Purrify</a> ships
+            <a href="https://www.purrify.ca?ref=crystaldeo" className="purrify-link" rel="sponsored noopener noreferrer">Purrify</a> ships
             quickly to {city.name} and surrounding areas including:
           </p>
           <div className="flex flex-wrap gap-2">
@@ -212,15 +212,15 @@ export default async function CityPage({ params }: PageProps) {
             Join {city.name} Cat Owners Who&apos;ve Said Goodbye to Litter Box Smell
           </h2>
           <p className="text-[#b6e3f4] mb-6">
-            <a href="https://www.purrify.ca" className="text-white underline hover:text-[#22c55e]">
+            <a href="https://www.purrify.ca?ref=crystaldeo" className="text-white underline hover:text-[#22c55e]" rel="sponsored noopener noreferrer">
               Purrify
             </a>{" "}
             is trusted by thousands of Canadian cat owners from coast to coast.
           </p>
           <a
-            href="https://www.purrify.ca"
+            href="https://www.purrify.ca?ref=crystaldeo"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="sponsored noopener noreferrer"
             className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold transition-colors"
           >
             Try Purrify Risk-Free

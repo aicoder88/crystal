@@ -190,7 +190,7 @@ export default function StatisticsPage() {
             <div className="mt-6 bg-[#22c55e]/10 border-2 border-[#22c55e] rounded-xl p-6">
               <p className="text-neutral-700">
                 <strong className="text-[#1a3a4a]">The Solution:</strong> While 58% of cat owners remain unsatisfied with traditional litter odor control,{" "}
-                <a href="https://www.purrify.ca" className="text-[#22c55e] hover:underline font-semibold">
+                <a href="https://www.purrify.ca?ref=crystaldeo" className="text-[#22c55e] hover:underline font-semibold" rel="sponsored noopener noreferrer">
                   activated carbon additives like Purrify
                 </a>{" "}
                 trap ammonia molecules at the source, providing 7+ days of odor-free freshness that works with any litter type.
@@ -285,7 +285,7 @@ export default function StatisticsPage() {
             <div className="mt-6 bg-[#22c55e]/10 border-2 border-[#22c55e] rounded-xl p-6">
               <p className="text-neutral-700">
                 <strong className="text-[#1a3a4a]">Eco-Friendly Alternative:</strong>{" "}
-                <a href="https://www.purrify.ca" className="text-[#22c55e] hover:underline font-semibold">
+                <a href="https://www.purrify.ca?ref=crystaldeo" className="text-[#22c55e] hover:underline font-semibold" rel="sponsored noopener noreferrer">
                   Purrify&apos;s coconut-based activated carbon
                 </a>{" "}
                 is 100% natural and biodegradable. By extending litter life, it reduces overall waste by 30-40%.
@@ -393,15 +393,15 @@ export default function StatisticsPage() {
           </h2>
           <p className="text-[#b6e3f4] mb-6">
             With 81% of cat owners citing odor as their top concern,{" "}
-            <a href="https://www.purrify.ca" className="text-white underline hover:text-[#22c55e]">
+            <a href="https://www.purrify.ca?ref=crystaldeo" className="text-white underline hover:text-[#22c55e]" rel="sponsored noopener noreferrer">
               Purrify
             </a>{" "}
             delivers the molecular trapping power you need.
           </p>
           <a
-            href="https://www.purrify.ca"
+            href="https://www.purrify.ca?ref=crystaldeo"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="sponsored noopener noreferrer"
             className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold transition-colors"
           >
             Try Purrify Risk-Free

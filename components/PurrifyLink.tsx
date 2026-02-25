@@ -26,7 +26,7 @@ export default function PurrifyLink({
       href="https://www.purrify.ca"
       {...linkProps}
       className={`purrify-link ${className}`}
-    >
+     rel="sponsored noopener noreferrer">
       {children}
     </a>
   );

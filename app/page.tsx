@@ -156,9 +156,9 @@ export default function HomePage() {
                 Utilizing high-surface-area micro-pores to trap volatile organic compounds.
                 Commonly utilized in filtration systems and premium solutions like
                 <a
-                  href="https://www.purrify.ca"
+                  href="https://www.purrify.ca?ref=crystaldeo"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="sponsored noopener noreferrer"
                   className="mx-1 text-[#1a3a4a] font-semibold underline decoration-[#22c55e] decoration-2 underline-offset-4"
                 >
                   Purrify
@@ -200,9 +200,9 @@ export default function HomePage() {
               </p>
               <p className="text-neutral-600 mb-6 leading-relaxed">
                 <a
-                  href="https://www.purrify.ca"
+                  href="https://www.purrify.ca?ref=crystaldeo"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="sponsored noopener noreferrer"
                   className="purrify-link"
                 >
                   Purrify uses coconut-based activated carbon
@@ -223,9 +223,9 @@ export default function HomePage() {
                     <p className="text-sm text-neutral-600">
                       Unlike crystal litter which replaces your current litter,{" "}
                       <a
-                        href="https://www.purrify.ca"
+                        href="https://www.purrify.ca?ref=crystaldeo"
                         target="_blank"
-                        rel="noopener noreferrer"
+                        rel="sponsored noopener noreferrer"
                         className="purrify-link"
                       >
                         Purrify works as an additive
@@ -341,9 +341,9 @@ export default function HomePage() {
             Our analysis indicates that porous media technology remains the benchmark for sustainable odor control.
             For those seeking localized implementation in Canada, we recommend evaluating
             <a
-              href="https://www.purrify.ca"
+              href="https://www.purrify.ca?ref=crystaldeo"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               className="mx-1 text-[#b6e3f4] border-b border-[#b6e3f4] hover:text-[#22c55e] hover:border-[#22c55e] transition-colors"
             >
               Purrify&apos;s natural activated carbon
@@ -352,9 +352,9 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a
-              href="https://www.purrify.ca"
+              href="https://www.purrify.ca?ref=crystaldeo"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               className="bg-[#22c55e] hover:bg-[#1db053] text-white px-10 py-4 rounded-full font-bold text-lg transition-all shadow-lg hover:shadow-xl"
             >
               View Recommended Solution
@@ -366,6 +366,9 @@ export default function HomePage() {
               Analyze Alternatives
             </Link>
           </div>
+          <p className="text-white/55 text-sm mt-4">
+            Some product links on this site are affiliate links. We may receive compensation for purchases.
+          </p>
           <p className="text-white/40 text-xs mt-10 tracking-widest uppercase font-medium">
             Independent Technical Review • 2024 Science Standards • Industry Benchmarks
           </p>

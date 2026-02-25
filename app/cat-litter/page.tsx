@@ -48,9 +48,9 @@ export default function CatLitterPage() {
               Examine Technical Data
             </Link>
             <a
-              href="https://www.purrify.ca"
+              href="https://www.purrify.ca?ref=crystaldeo"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               className="bg-white border-2 border-[#1a3a4a]/10 hover:border-[#1a3a4a] text-[#1a3a4a] px-10 py-4 rounded-full font-semibold text-lg transition-all"
             >
               View Specifications
@@ -168,9 +168,9 @@ export default function CatLitterPage() {
                 </li>
               </ul>
               <a
-                href="https://www.purrify.ca"
+                href="https://www.purrify.ca?ref=crystaldeo"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="sponsored noopener noreferrer"
                 className="inline-block bg-[#1a3a4a] hover:bg-[#0f2a36] text-white px-10 py-4 rounded-full font-bold text-lg transition-all shadow-xl"
               >
                 Access Technical Partner Site
@@ -233,9 +233,9 @@ export default function CatLitterPage() {
             <div className="bg-[#22c55e]/10 rounded-2xl p-8 border-2 border-[#22c55e]">
               <h3 className="text-xl font-semibold text-[#22c55e] mb-6 text-center">
                 <a
-                  href="https://www.purrify.ca"
+                  href="https://www.purrify.ca?ref=crystaldeo"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="sponsored noopener noreferrer"
                   className="hover:underline"
                 >
                   Purrify + Your Favorite Litter
@@ -295,9 +295,9 @@ export default function CatLitterPage() {
                 Perfect for trying Purrify for the first time
               </p>
               <a
-                href="https://www.purrify.ca"
+                href="https://www.purrify.ca?ref=crystaldeo"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="sponsored noopener noreferrer"
                 className="block w-full bg-neutral-100 hover:bg-neutral-200 text-[#1a3a4a] py-3 rounded-full font-medium transition-colors"
               >
                 Buy Trial
@@ -321,9 +321,9 @@ export default function CatLitterPage() {
                 Our best-selling size for single-cat homes
               </p>
               <a
-                href="https://www.purrify.ca"
+                href="https://www.purrify.ca?ref=crystaldeo"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="sponsored noopener noreferrer"
                 className="block w-full bg-[#22c55e] hover:bg-[#16a34a] text-white py-3 rounded-full font-medium transition-colors"
               >
                 Buy Standard
@@ -342,9 +342,9 @@ export default function CatLitterPage() {
                 Best value for multi-cat households
               </p>
               <a
-                href="https://www.purrify.ca"
+                href="https://www.purrify.ca?ref=crystaldeo"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="sponsored noopener noreferrer"
                 className="block w-full bg-neutral-100 hover:bg-neutral-200 text-[#1a3a4a] py-3 rounded-full font-medium transition-colors"
               >
                 Buy Family Pack
@@ -392,9 +392,9 @@ export default function CatLitterPage() {
             <p className="text-sm text-neutral-500">
               &mdash; Verified{" "}
               <a
-                href="https://www.purrify.ca"
+                href="https://www.purrify.ca?ref=crystaldeo"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="sponsored noopener noreferrer"
                 className="purrify-link"
               >
                 Purrify
@@ -474,9 +474,9 @@ export default function CatLitterPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://www.purrify.ca"
+              href="https://www.purrify.ca?ref=crystaldeo"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               className="bg-[#22c55e] hover:bg-[#1db053] text-white px-10 py-5 rounded-full font-bold text-lg transition-all shadow-xl shadow-green-500/10"
             >
               Review Verification Standards

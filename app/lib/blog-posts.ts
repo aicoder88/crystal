@@ -48,7 +48,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2>The Solution: Molecular Trapping</h2>
 
-      <p>The only way to truly eliminate litter box odor is to <strong>trap ammonia molecules before they reach your nose</strong>. This is exactly what <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">activated carbon technology like Purrify</a> does.</p>
+      <p>The only way to truly eliminate litter box odor is to <strong>trap ammonia molecules before they reach your nose</strong>. This is exactly what <a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">activated carbon technology like Purrify</a> does.</p>
 
       <p>Activated carbon works through a process called <strong>adsorption</strong> (not absorption). Ammonia molecules physically stick to the carbon's surface and are locked away permanently. One gram of activated carbon has the surface area of a football field—that's a lot of trapping power.</p>
 
@@ -57,14 +57,14 @@ export const blogPosts: BlogPost[] = [
       <ol>
         <li><strong>Scoop daily</strong> - Remove solid waste every day without exception</li>
         <li><strong>Use enough litter</strong> - Maintain 3-4 inches of litter depth</li>
-        <li><strong>Add activated carbon</strong> - <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">Purrify's activated carbon</a> traps ammonia at the source</li>
+        <li><strong>Add activated carbon</strong> - <a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">Purrify's activated carbon</a> traps ammonia at the source</li>
         <li><strong>Clean the box monthly</strong> - Wash with mild soap, avoid harsh chemicals</li>
         <li><strong>Ensure proper ventilation</strong> - Covered boxes trap smell inside (and cats often hate them)</li>
       </ol>
 
       <h2>Why Activated Carbon Outperforms Everything Else</h2>
 
-      <p><a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">Purrify uses coconut-based activated carbon</a>, which has the highest micropore volume of any carbon source. This means maximum ammonia trapping in minimum product. Users report <strong>7+ days without litter box smell</strong>—a dramatic improvement over any litter alone.</p>
+      <p><a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">Purrify uses coconut-based activated carbon</a>, which has the highest micropore volume of any carbon source. This means maximum ammonia trapping in minimum product. Users report <strong>7+ days without litter box smell</strong>—a dramatic improvement over any litter alone.</p>
 
       <p>The best part? It works with any litter type. No need to switch what your cat already likes. Just sprinkle Purrify on top, mix it in, and experience the difference.</p>
     `,
@@ -149,7 +149,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Scoop daily:</strong> Remove solid waste every single day without fail.</li>
         <li><strong>Stir the litter:</strong> Mix it thoroughly daily to distribute moisture evenly among the absorbent beads.</li>
         <li><strong>Use enough depth:</strong> Maintain at least 2-3 inches of crystal litter to prevent pooling at the bottom.</li>
-        <li><strong>Add activated carbon:</strong> Using <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link font-semibold text-[#22c55e]">additive products like Purrify</a> actively traps the ammonia gas that silica crystals inevitably miss.</li>
+        <li><strong>Add activated carbon:</strong> Using <a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link font-semibold text-[#22c55e]">additive products like Purrify</a> actively traps the ammonia gas that silica crystals inevitably miss.</li>
       </ol>
 
       <figure class="my-10 mx-auto max-w-lg">
@@ -165,7 +165,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2 class="text-2xl font-bold text-[#1a3a4a] mt-10 mb-4">The Better Solution: Activated Carbon</h2>
 
-      <p>Here's the secret that most crystal litter users don't know: you can drastically extend your expensive litter's life AND eliminate odor completely by adding <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link font-semibold text-[#22c55e]">activated carbon from Purrify</a>.</p>
+      <p>Here's the secret that most crystal litter users don't know: you can drastically extend your expensive litter's life AND eliminate odor completely by adding <a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link font-semibold text-[#22c55e]">activated carbon from Purrify</a>.</p>
 
       <p>While crystal litter <em>absorbs moisture</em>, activated carbon <strong>traps ammonia molecules</strong> through a physical process called adsorption. Used together, they create an unbeatable system:</p>
 
@@ -180,7 +180,7 @@ export const blogPosts: BlogPost[] = [
         <figcaption class="text-center text-sm text-neutral-500 mt-3 italic">With the right odor control solution, both you and your cat can enjoy a fresh, welcoming home.</figcaption>
       </figure>
 
-      <p class="text-lg font-medium text-neutral-800">Many <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link text-[#22c55e] hover:underline">Purrify</a> users report effortlessly going the full 4 weeks between crystal litter changes—without ever detecting ammonia issues.</p>
+      <p class="text-lg font-medium text-neutral-800">Many <a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link text-[#22c55e] hover:underline">Purrify</a> users report effortlessly going the full 4 weeks between crystal litter changes—without ever detecting ammonia issues.</p>
     `,
     faqs: [
       {
@@ -273,11 +273,11 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Wheat or corn litter:</strong> Natural, biodegradable, softer texture</li>
       </ul>
 
-      <p>But here's the challenge: <strong>many natural litters have poor odor control</strong>. That's where <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">activated carbon comes in</a>.</p>
+      <p>But here's the challenge: <strong>many natural litters have poor odor control</strong>. That's where <a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">activated carbon comes in</a>.</p>
 
       <h2>The Best of Both Worlds</h2>
 
-      <p><a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">Purrify activated carbon</a> is made from coconut shells—100% natural and completely safe for cats. Unlike crystal litter, it:</p>
+      <p><a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">Purrify activated carbon</a> is made from coconut shells—100% natural and completely safe for cats. Unlike crystal litter, it:</p>
 
       <ul>
         <li>Contains no silica or synthetic materials</li>
@@ -362,7 +362,7 @@ export const blogPosts: BlogPost[] = [
 
       <h3>Step 4: Add Activated Carbon</h3>
 
-      <p>This is the <strong>game-changer</strong> for apartment dwellers. <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">Activated carbon like Purrify</a> traps ammonia molecules at the source, providing 7+ days of odor-free freshness—crucial when living in close quarters.</p>
+      <p>This is the <strong>game-changer</strong> for apartment dwellers. <a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">Activated carbon like Purrify</a> traps ammonia molecules at the source, providing 7+ days of odor-free freshness—crucial when living in close quarters.</p>
 
       <h3>Step 5: Use a Litter Mat</h3>
 
@@ -393,9 +393,9 @@ export const blogPosts: BlogPost[] = [
 
       <h2>The Apartment Dweller's Secret Weapon</h2>
 
-      <p>Ask any apartment-dwelling cat owner who's conquered litter box smell, and they'll tell you: <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">activated carbon is essential</a>.</p>
+      <p>Ask any apartment-dwelling cat owner who's conquered litter box smell, and they'll tell you: <a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">activated carbon is essential</a>.</p>
 
-      <p><a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">Purrify's coconut-based activated carbon</a> works by adsorbing ammonia molecules—the primary source of litter box smell. Unlike litters that just absorb moisture, activated carbon <strong>traps odor at the molecular level</strong>.</p>
+      <p><a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">Purrify's coconut-based activated carbon</a> works by adsorbing ammonia molecules—the primary source of litter box smell. Unlike litters that just absorb moisture, activated carbon <strong>traps odor at the molecular level</strong>.</p>
 
       <p>The result? Your apartment stays fresh for 7+ days, even in a studio. No more panic when someone texts "I'm in your building!" </p>
     `,
@@ -476,7 +476,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Why Activated Carbon Is Essential for Multiple Cats</h2>
 
-      <p><a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">Activated carbon like Purrify</a> works differently than litter:</p>
+      <p><a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">Activated carbon like Purrify</a> works differently than litter:</p>
 
       <ul>
         <li><strong>Litter absorbs moisture</strong> → reduces liquid waste</li>
@@ -500,7 +500,7 @@ export const blogPosts: BlogPost[] = [
         <li>Place boxes in different locations (cats are territorial)</li>
         <li>Use open boxes (covered ones trap smell)</li>
         <li>3-4 inches of quality clumping litter</li>
-        <li>Add <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">activated carbon in each box</a></li>
+        <li>Add <a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">activated carbon in each box</a></li>
         <li>Scoop all boxes twice daily</li>
         <li>Complete litter change every 2-3 weeks</li>
       </ul>
@@ -605,7 +605,7 @@ export const blogPosts: BlogPost[] = [
       <p><strong>Pros:</strong> Highest micropore volume, maximum odor trapping, sustainable<br>
       <strong>Cons:</strong> More expensive (but worth it)</p>
 
-      <p><a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">Purrify uses coconut shell activated carbon</a> specifically because it has the optimal pore size for trapping ammonia molecules—the primary component of litter box odor.</p>
+      <p><a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">Purrify uses coconut shell activated carbon</a> specifically because it has the optimal pore size for trapping ammonia molecules—the primary component of litter box odor.</p>
 
       <h2>How to Use Activated Carbon Cat Litter</h2>
 
@@ -637,7 +637,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Reactivation possible</strong> with heat (though replacement is easier)</li>
       </ul>
 
-      <p>This is why <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">Purrify users report 7+ days</a> without litter box smell—it's not marketing hype, it's science.</p>
+      <p>This is why <a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">Purrify users report 7+ days</a> without litter box smell—it's not marketing hype, it's science.</p>
     `,
     faqs: [
       {
@@ -720,7 +720,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Maximum distance from food prep:</strong> Put it as far from counters/stove as possible</li>
         <li><strong>Physical barrier:</strong> Use a screen or divider to separate the areas</li>
         <li><strong>Scoop twice daily:</strong> Remove waste immediately to minimize bacteria</li>
-        <li><strong>Use activated carbon:</strong> <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">Essential for odor control</a> in close quarters</li>
+        <li><strong>Use activated carbon:</strong> <a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">Essential for odor control</a> in close quarters</li>
         <li><strong>Covered mat:</strong> High-sided mat to catch all litter tracking</li>
         <li><strong>Wash hands obsessively:</strong> After any litter contact, before cooking</li>
         <li><strong>Clean surfaces more often:</strong> Daily wipe-down of all kitchen surfaces</li>
@@ -730,7 +730,7 @@ export const blogPosts: BlogPost[] = [
 
       <p>If the litter box must be near your kitchen, <strong>odor control isn't optional—it's essential</strong>. Not just for comfort, but for food safety.</p>
 
-      <p>Regular litters can't provide the level of odor elimination you need in this situation. <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">Activated carbon like Purrify</a> is non-negotiable because:</p>
+      <p>Regular litters can't provide the level of odor elimination you need in this situation. <a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">Activated carbon like Purrify</a> is non-negotiable because:</p>
 
       <ul>
         <li>Traps 97% of ammonia molecules</li>
@@ -870,7 +870,7 @@ export const blogPosts: BlogPost[] = [
         <li>Cat satisfaction = no box rejection issues</li>
       </ul>
 
-      <p>And here's the secret: <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">adding activated carbon</a> extends the life of your litter even further. Many Purrify users find they can:</p>
+      <p>And here's the secret: <a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">adding activated carbon</a> extends the life of your litter even further. Many Purrify users find they can:</p>
 
       <ul>
         <li>Use slightly less litter (3 inches instead of 4)</li>
@@ -989,7 +989,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Why Activated Carbon Prevents Post-Cleaning Smell</h2>
 
-      <p>Here's the game-changer: <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">adding activated carbon like Purrify</a> to your freshly cleaned litter box <strong>prevents the smell from ever developing</strong>.</p>
+      <p>Here's the game-changer: <a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">adding activated carbon like Purrify</a> to your freshly cleaned litter box <strong>prevents the smell from ever developing</strong>.</p>
 
       <p>How? Because activated carbon:</p>
 
@@ -1011,7 +1011,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Yearly:</strong> Replace the plastic litter box entirely</li>
       </ul>
 
-      <p>This system, combined with <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">molecular odor trapping</a>, means you'll never ask "why does it still smell?" again.</p>
+      <p>This system, combined with <a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">molecular odor trapping</a>, means you'll never ask "why does it still smell?" again.</p>
     `,
     faqs: [
       {
@@ -1207,7 +1207,7 @@ export const blogPosts: BlogPost[] = [
 
       <h2>The Solution: Natural Litter + Activated Carbon</h2>
 
-      <p>You don't have to choose between eco-friendly and effective. <a href="https://www.purrify.ca" target="_blank" rel="noopener" class="purrify-link">Activated carbon like Purrify</a> solves the natural litter odor problem:</p>
+      <p>You don't have to choose between eco-friendly and effective. <a href="https://www.purrify.ca?ref=crystaldeo" target="_blank" rel="sponsored noopener noreferrer" class="purrify-link">Activated carbon like Purrify</a> solves the natural litter odor problem:</p>
 
       <ul>
         <li><strong>Also 100% natural:</strong> Made from coconut shells</li>

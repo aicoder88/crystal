@@ -240,9 +240,9 @@ export default function CrystalLitterGuidePage() {
                 </span>
                 <h3 className="text-2xl font-bold text-[#1a3a4a] mt-2 mb-4">
                   <a
-                    href="https://www.purrify.ca"
+                    href="https://www.purrify.ca?ref=crystaldeo"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="sponsored noopener noreferrer"
                     className="hover:text-[#22c55e] transition-colors"
                   >
                     Purrify Activated Carbon
@@ -251,9 +251,9 @@ export default function CrystalLitterGuidePage() {
                 <p className="text-neutral-600 mb-6 leading-relaxed">
                   Instead of replacing your cat&apos;s litter,{" "}
                   <a
-                    href="https://www.purrify.ca"
+                    href="https://www.purrify.ca?ref=crystaldeo"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="sponsored noopener noreferrer"
                     className="purrify-link"
                   >
                     Purrify is a natural additive
@@ -280,9 +280,9 @@ export default function CrystalLitterGuidePage() {
                   </li>
                 </ul>
                 <a
-                  href="https://www.purrify.ca"
+                  href="https://www.purrify.ca?ref=crystaldeo"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="sponsored noopener noreferrer"
                   className="inline-block bg-[#22c55e] hover:bg-[#16a34a] text-white px-6 py-3 rounded-full font-semibold transition-colors"
                 >
                   Try Purrify Today
@@ -320,9 +320,9 @@ export default function CrystalLitterGuidePage() {
                   </th>
                   <th scope="col" className="text-center py-4 px-4 font-medium text-[#22c55e]">
                     <a
-                      href="https://www.purrify.ca"
+                      href="https://www.purrify.ca?ref=crystaldeo"
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="sponsored noopener noreferrer"
                       className="hover:underline"
                     >
                       Purrify + Any Litter
@@ -424,9 +424,9 @@ export default function CrystalLitterGuidePage() {
                 No, crystal litter is designed to be used on its own. Mixing
                 defeats the purpose of the absorption system. However,{" "}
                 <a
-                  href="https://www.purrify.ca"
+                  href="https://www.purrify.ca?ref=crystaldeo"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="sponsored noopener noreferrer"
                   className="purrify-link"
                 >
                   activated carbon additives like Purrify
@@ -441,9 +441,9 @@ export default function CrystalLitterGuidePage() {
               <p className="text-neutral-600 text-sm leading-relaxed">
                 Many cat owners are switching to{" "}
                 <a
-                  href="https://www.purrify.ca"
+                  href="https://www.purrify.ca?ref=crystaldeo"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="sponsored noopener noreferrer"
                   className="purrify-link"
                 >
                   activated carbon additives like Purrify
@@ -466,9 +466,9 @@ export default function CrystalLitterGuidePage() {
           <p className="text-[#b6e3f4] text-lg mb-8 max-w-2xl mx-auto">
             Skip the crystal litter hassle. Try{" "}
             <a
-              href="https://www.purrify.ca"
+              href="https://www.purrify.ca?ref=crystaldeo"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               className="text-white underline hover:text-[#22c55e] transition-colors"
             >
               Purrify activated carbon
@@ -477,9 +477,9 @@ export default function CrystalLitterGuidePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://www.purrify.ca"
+              href="https://www.purrify.ca?ref=crystaldeo"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               className="bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold text-lg transition-colors"
             >
               Shop Purrify

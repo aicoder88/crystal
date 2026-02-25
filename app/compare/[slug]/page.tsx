@@ -168,9 +168,9 @@ export default async function ComparisonPage({ params }: PageProps) {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="https://www.purrify.ca"
+                href="https://www.purrify.ca?ref=crystaldeo"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="sponsored noopener noreferrer"
                 className="bg-[#1a3a4a] hover:bg-[#0f2a36] text-white px-8 py-3 rounded-full font-semibold transition-all shadow-md"
               >
                 Access Recommended Solution
@@ -251,9 +251,9 @@ export default async function ComparisonPage({ params }: PageProps) {
             Data-driven solutions for chemical-free odor mitigation. Explore our technical partners for high-performance implementations available across Canada.
           </p>
           <a
-            href="https://www.purrify.ca"
+            href="https://www.purrify.ca?ref=crystaldeo"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="sponsored noopener noreferrer"
             className="inline-block bg-[#22c55e] hover:bg-[#1db053] text-white px-10 py-4 rounded-full font-bold text-lg transition-all shadow-lg shadow-[#22c55e]/20"
           >
             Access Recommended Carbon Media

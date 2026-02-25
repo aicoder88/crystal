@@ -155,9 +155,9 @@ export default function LitterCalculatorPage() {
             Calculate how much you spend on cat litter per month and year, and
             see how much you could save with{" "}
             <a
-              href="https://www.purrify.ca"
+              href="https://www.purrify.ca?ref=crystaldeo"
               className="text-[#22c55e] hover:underline"
-            >
+             rel="sponsored noopener noreferrer">
               Purrify activated carbon
             </a>
             .
@@ -228,9 +228,9 @@ export default function LitterCalculatorPage() {
                   <span className="ml-3 text-neutral-700">
                     Add{" "}
                     <a
-                      href="https://www.purrify.ca"
+                      href="https://www.purrify.ca?ref=crystaldeo"
                       className="text-[#22c55e] hover:underline font-semibold"
-                    >
+                     rel="sponsored noopener noreferrer">
                       Purrify
                     </a>{" "}
                     activated carbon
@@ -345,9 +345,9 @@ export default function LitterCalculatorPage() {
                   </button>
                 ) : (
                   <a
-                    href="https://www.purrify.ca"
+                    href="https://www.purrify.ca?ref=crystaldeo"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="sponsored noopener noreferrer"
                     className="block w-full bg-[#22c55e] hover:bg-[#16a34a] text-white px-6 py-3 rounded-full font-semibold transition-colors text-center"
                   >
                     Get Purrify Now
@@ -383,9 +383,9 @@ export default function LitterCalculatorPage() {
                 <strong className="text-[#1a3a4a]">Why Purrify Works:</strong>{" "}
                 Unlike litter alone (which only absorbs moisture),{" "}
                 <a
-                  href="https://www.purrify.ca"
+                  href="https://www.purrify.ca?ref=crystaldeo"
                   className="text-[#22c55e] hover:underline"
-                >
+                 rel="sponsored noopener noreferrer">
                   Purrify&apos;s coconut-based activated carbon
                 </a>{" "}
                 traps ammonia at the molecular level. Each gram has the surface

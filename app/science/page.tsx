@@ -148,9 +148,9 @@ export default function SciencePage() {
               </h2>
               <p className="text-neutral-600 mb-4 leading-relaxed">
                 <a
-                  href="https://www.purrify.ca"
+                  href="https://www.purrify.ca?ref=crystaldeo"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="sponsored noopener noreferrer"
                   className="purrify-link"
                 >
                   Purrify&apos;s activated carbon
@@ -164,6 +164,27 @@ export default function SciencePage() {
                 football field. This massive surface area{" "}
                 <strong>traps odor molecules through adsorption</strong> &mdash;
                 molecules stick to the carbon surface and are locked away.
+              </p>
+              <p className="text-neutral-600 mb-4 leading-relaxed">
+                The adsorption mechanism is well documented in peer-reviewed literature,
+                including{" "}
+                <a
+                  href="https://pubs.acs.org/doi/10.1021/es203093v"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#22c55e] hover:underline"
+                >
+                  Environmental Science &amp; Technology studies
+                </a>{" "}
+                and broad technical overviews like{" "}
+                <a
+                  href="https://en.wikipedia.org/wiki/Activated_carbon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#22c55e] hover:underline"
+                >
+                  Wikipedia&apos;s activated carbon article
+                </a>.
               </p>
               <div className="bg-[#22c55e]/10 rounded-xl p-4 border-2 border-[#22c55e]">
                 <h4 className="font-semibold text-[#1a3a4a] mb-2">
@@ -203,9 +224,9 @@ export default function SciencePage() {
                   </th>
                   <th scope="col" className="text-center py-4 px-6 font-medium bg-[#22c55e]">
                     <a
-                      href="https://www.purrify.ca"
+                      href="https://www.purrify.ca?ref=crystaldeo"
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="sponsored noopener noreferrer"
                       className="text-white hover:underline"
                     >
                       Purrify Activated Carbon
@@ -283,6 +304,81 @@ export default function SciencePage() {
         </div>
       </section>
 
+      {/* Scientific Resources */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-[#1a3a4a] mb-4">
+            Scientific Resources and Public Data
+          </h2>
+          <p className="text-neutral-600 mb-6">
+            For readers who want primary references, these sources cover adsorption science,
+            air-quality toxicology, and environmental reporting databases.
+          </p>
+          <ul className="space-y-3 text-neutral-700">
+            <li>
+              <a
+                href="https://pubs.acs.org/doi/10.1021/es203093v"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#22c55e] hover:underline"
+              >
+                ACS: Emerging investigator series on ammonia adsorption
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.sciencedirect.com/science/article/pii/S0960852406001222"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#22c55e] hover:underline"
+              >
+                Bioresource Technology: Activated carbon from biomass feedstocks
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Activated_carbon"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#22c55e] hover:underline"
+              >
+                Wikipedia: Activated carbon overview
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.epa.gov/enviro"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#22c55e] hover:underline"
+              >
+                U.S. EPA Envirofacts environmental database
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.canada.ca/en/environment-climate-change/services/managing-reducing-waste/reducing-methane-emissions-landfills.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#22c55e] hover:underline"
+              >
+                Environment and Climate Change Canada: landfill methane action
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.cdc.gov/niosh/npg/npgd0028.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#22c55e] hover:underline"
+              >
+                CDC NIOSH: Ammonia safety profile
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
       {/* Call-out Box */}
       <section className="py-16 bg-[#1a3a4a]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -293,9 +389,9 @@ export default function SciencePage() {
             The science is clear: trapping odor molecules is more effective than
             simply absorbing moisture.{" "}
             <a
-              href="https://www.purrify.ca"
+              href="https://www.purrify.ca?ref=crystaldeo"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               className="text-white underline hover:text-[#22c55e] transition-colors"
             >
               Purrify&apos;s molecular trapping technology
@@ -304,9 +400,9 @@ export default function SciencePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://www.purrify.ca"
+              href="https://www.purrify.ca?ref=crystaldeo"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               className="bg-[#22c55e] hover:bg-[#16a34a] text-white px-8 py-4 rounded-full font-semibold transition-colors"
             >
               Try Purrify Today
@@ -339,9 +435,9 @@ export default function SciencePage() {
               </p>
               <p className="text-neutral-600 text-sm leading-relaxed">
                 <a
-                  href="https://www.purrify.ca"
+                  href="https://www.purrify.ca?ref=crystaldeo"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="sponsored noopener noreferrer"
                   className="purrify-link"
                 >
                   Purrify uses adsorption
@@ -361,9 +457,9 @@ export default function SciencePage() {
               </p>
               <p className="text-neutral-600 text-sm leading-relaxed">
                 <a
-                  href="https://www.purrify.ca"
+                  href="https://www.purrify.ca?ref=crystaldeo"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="sponsored noopener noreferrer"
                   className="purrify-link"
                 >
                   Purrify sources only premium coconut carbon

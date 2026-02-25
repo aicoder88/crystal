@@ -73,7 +73,7 @@ export default function Footer() {
             <a
               href="https://www.purrify.ca"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               className="group inline-flex items-center gap-2 text-[#22c55e] hover:text-white transition-colors font-medium"
             >
               <span>Visit Purrify Canada</span>
@@ -96,15 +96,7 @@ export default function Footer() {
             rights reserved.
           </p>
           <p className="text-neutral-400 text-sm mt-2 sm:mt-0">
-            Proudly partnered with{" "}
-            <a
-              href="https://www.purrify.ca"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[#b6e3f4] hover:text-white transition-colors"
-            >
-              Purrify
-            </a>
+            Independent odor-control research and practical guidance.
           </p>
         </div>
       </div>

@@ -83,7 +83,7 @@ const DesktopNav = memo(function DesktopNav() {
       <a
         href={PARTNER_URL}
         target="_blank"
-        rel="noopener noreferrer"
+        rel="sponsored noopener noreferrer"
         className="bg-[#1a3a4a] hover:bg-[#0f2a36] text-white px-6 py-2.5 rounded-full text-xs font-bold uppercase tracking-widest transition-all shadow-md"
       >
         Partner Portal
@@ -117,7 +117,7 @@ const MobileNav = memo(function MobileNav({ isOpen, onLinkClick }: MobileNavProp
         <a
           href={PARTNER_URL}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="sponsored noopener noreferrer"
           className="bg-[#1a3a4a] text-white px-4 py-3 rounded-full text-xs font-bold uppercase tracking-widest text-center mt-4 shadow-lg"
         >
           Partner Portal
